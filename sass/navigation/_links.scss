@@ -1,0 +1,91 @@
+a {
+
+	@include link-transition;
+	color: $color__dark-blue;
+	font-family:"Bitter", serif;
+	font-weight:700;
+	font-display: swap;
+	&:visited {
+		/* color: $color__link-visited; */
+	}
+
+	&:hover,
+	&:active {
+		color: $color__link-hover;
+		outline: 0;
+		text-decoration: none;
+	}
+
+	&:focus {
+		outline: thin dotted;
+		text-decoration: underline;
+	}
+}
+
+.gray-link, link.gray{
+  color:$color__text-light;
+  &:hover{
+	color:$color__charcoal;
+  }
+}
+
+.white-link, link.white{
+  color:#fff;
+  &:hover{
+	  color:$color__cloud-blue;
+  } 
+} 
+.blue-link, link.blue{
+	color:$color__main-blue;
+	&:hover{
+		color:$color__dark-blue;
+	}
+}
+.gray-link, .white-link, .blue-link, .link{
+	&.right{
+		&:after{
+			font-family: "Font Awesome 5 Pro"; 
+			content:"\f101";
+			font-weight: 900;
+			padding-left:10px;
+			text-decoration: none;
+		  }
+	}
+	&.left{
+		&:before{
+			font-family: "Font Awesome 5 Pro"; 
+			content:"\f100";
+			font-weight: 900;
+			padding-right:10px;
+		  }
+	}
+}
+
+a[href$=".pdf"]:after {
+	display: inline-block;
+	font-family: "Font Awesome 5 Pro";
+	content: "\f1c1";
+	font-weight: 900;
+	padding-left: 10px;
+}
+a[href$=".docx"]:after {
+	display: inline-block;
+	font-family: "Font Awesome 5 Pro";
+	content: "\f1c2";
+	font-weight: 900;
+	padding-left: 10px;
+}		
+a[href$=".ppt"]:after {
+	display: inline-block;
+	font-family: "Font Awesome 5 Pro";
+	content: "\f1c4";
+	font-weight: 900;
+	padding-left: 10px;
+}
+.white-link.right:hover:after, .gray-link.right:hover:after, .blue-link.right:hover:after {
+	transform: translateX(5px);
+  }
+
+.white-link.left:hover:before, .gray-link.left:hover:before, .blue-link.left:hover:before {
+	transform: translateX(-5px);
+  }
