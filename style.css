@@ -55,7 +55,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 --------------------------------------------------------------*/
 @import url("https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap");
 .dark-blue {
-  color: #264160;
+  color: #000;
 }
 
 .blue {
@@ -87,7 +87,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .dark-blue-bg {
-  background-color: #264160;
+  background-color: #000;
 }
 
 .blue-bg {
@@ -2891,7 +2891,7 @@ form p {
 a {
   -webkit-transition: color 110ms ease-in-out;
   transition: color 110ms ease-in-out;
-  color: #264160;
+  color: #000;
   font-family: "Bitter", serif;
   font-weight: 700;
   font-display: swap;
@@ -2934,7 +2934,7 @@ a:focus {
 }
 
 .blue-link:hover, link.blue:hover {
-  color: #264160;
+  color: #000;
 }
 
 .gray-link.right:after, .white-link.right:after, .blue-link.right:after, .link.right:after {
@@ -6123,13 +6123,13 @@ body.page .main-navigation {
 }
 
 .splash--links div .left {
-  background-color: #264160;
+  background-color: #000;
   margin-right: 24px;
 }
 
 .splash--links div .left:hover, .splash--links div .left:focus {
   background-color: #fff;
-  color: #264160;
+  color: #000;
 }
 
 .splash--links div .right {
@@ -6139,7 +6139,7 @@ body.page .main-navigation {
 
 .splash--links div .right:hover, .splash--links div .right:focus {
   background-color: #fff;
-  color: #264160;
+  color: #000;
 }
 
 .splash--outro {
@@ -6279,7 +6279,7 @@ body.page .main-navigation {
 
 .focus-area--heading:after {
   height: 5px;
-  background: #264160;
+  background: #000;
   width: 200px;
   display: block;
   margin: 2rem auto;
@@ -6348,15 +6348,15 @@ body.page .main-navigation {
 
 .focus-area.cloud {
   background-color: #dbe4ee;
-  color: #264160;
+  color: #000;
 }
 
 .focus-area.cloud .focus-area--heading:after {
-  background-color: #264160;
+  background-color: #000;
 }
 
 .focus-area.cloud .focus-area--panel .link {
-  color: #264160;
+  color: #000;
 }
 
 .focus-area.cloud .focus-area--panel .link:hover {
@@ -6388,7 +6388,7 @@ body.page .main-navigation {
 }
 
 .focus-area.dark-blue {
-  background-color: #264160;
+  background-color: #000;
 }
 
 .focus-area.full-page {
@@ -6541,7 +6541,7 @@ body.page .main-navigation {
 
 .arrow-focus.dark-blue {
   color: #fff;
-  background-color: #264160;
+  background-color: #000;
 }
 
 .arrow-focus.dark-blue .arrow-focus--panel .link {
@@ -6579,7 +6579,7 @@ body.page .main-navigation {
 }
 
 .arrow-focus.cloud {
-  color: #264160;
+  color: #000;
   background-color: #dbe4ee;
 }
 
@@ -6588,11 +6588,11 @@ body.page .main-navigation {
 }
 
 .arrow-focus.cloud .arrow-focus--panel .link:hover, .arrow-focus.cloud .arrow-focus--panel .link:focus {
-  color: #264160;
+  color: #000;
 }
 
 .annual-report--splash {
-  background-color: #264160;
+  background-color: #000;
 }
 
 @media only screen and (min-width: 700px) {
@@ -6644,7 +6644,7 @@ body.page .main-navigation {
 @media only screen and (min-width: 700px) {
   .annual-report--splash--panel {
     background-color: transparent;
-    color: #264160;
+    color: #000;
     max-width: 420px;
     margin: 10px;
     padding-bottom: 0;
@@ -6752,7 +6752,7 @@ body.page .main-navigation {
       grid-template-columns: 1fr -webkit-max-content;
       grid-template-columns: 1fr max-content;
   color: #fff;
-  background-color: #264160;
+  background-color: #000;
   list-style: none;
   height: 100%;
 }
@@ -6782,7 +6782,7 @@ body.page .main-navigation {
 }
 
 .grant-container .discretionary-item.dark-blue {
-  background-color: #264160;
+  background-color: #000;
   color: #fff;
 }
 
@@ -6798,7 +6798,7 @@ body.page .main-navigation {
 
 .grant-container .discretionary-item.cloud {
   background-color: #dbe4ee;
-  color: #264160;
+  color: #000;
 }
 
 .grant-container .grant {
@@ -6937,13 +6937,13 @@ body.page .main-navigation {
 }
 
 .container.dark-blue {
-  background-color: #264160;
+  background-color: #000;
   color: #fff;
 }
 
 .container.cloud {
   background-color: #dbe4ee;
-  color: #264160;
+  color: #000;
 }
 
 .container.teal {
