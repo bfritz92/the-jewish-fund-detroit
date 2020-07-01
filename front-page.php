@@ -11,28 +11,6 @@
 
 get_header();
 ?>
-<!-- SPLASH -->
-<section id="splash" class="splash">
-    <div class="splash--partners">
-        
-        <img src="<?php echo wp_get_attachment_image_url( 130, 'large' ) ?>">
-    </div>
-    <div class="splash--seekers">
-
-        <img src="<?php echo wp_get_attachment_image_url( 131, 'large' ) ?>">
-    </div>
-    
-    <div class="splash--links">
-        <h1 class="splash--title">Improving health and well being for our community</h1>
-        <div>
-            <a class="left white-link" href="#">Grant Seekers</a>
-            <a class="right white-link" href="#">Grant Partners</a>
-        </div>
-        
-    </div>
-</section>
-
-
 <div id="primary" class="content-area">
 		<main id="main" class="site-main">
 
