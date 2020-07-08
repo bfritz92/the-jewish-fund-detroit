@@ -6096,6 +6096,8 @@ body.page .main-navigation {
   -ms-flex-item-align: center;
       align-self: center;
   justify-self: center;
+  -ms-flex-item-align: end;
+      align-self: end;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -6114,13 +6116,29 @@ body.page .main-navigation {
   margin-bottom: 2rem;
 }
 
+@media only screen and (min-width: 700px) {
+  .splash--links {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 .splash--links div {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .splash--links div {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 
 .splash--links div a {
@@ -6132,7 +6150,19 @@ body.page .main-navigation {
 
 .splash--links div .left {
   background-color: #264160;
-  margin-right: 24px;
+  margin-right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .splash--links div .left {
+    margin-right: 24px;
+  }
 }
 
 .splash--links div .left:hover, .splash--links div .left:focus {
@@ -6142,7 +6172,19 @@ body.page .main-navigation {
 
 .splash--links div .right {
   background-color: #0056b8;
-  margin-left: 38px;
+  margin-left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 700px) {
+  .splash--links div .right {
+    margin-left: 38px;
+  }
 }
 
 .splash--links div .right:hover, .splash--links div .right:focus {

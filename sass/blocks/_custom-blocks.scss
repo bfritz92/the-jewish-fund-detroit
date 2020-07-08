@@ -75,18 +75,23 @@
         grid-row:1;
         align-self:center;
         justify-self:center;
-
+        align-self:end;
         display:flex;
         flex-direction:column;
         justify-content:center;
         align-items:center;
         max-width:500px;
         z-index:2;
-        
         margin-bottom:2rem;
+        @media only screen and (min-width:$tablet){
+            align-self:center; 
+        }
         div{
             display:flex;
-            justify-content:space-between;
+            justify-content:center;
+            @media only screen and (min-width:$tablet){
+                justify-content:space-between;
+            }
             a{
             color:#fff;
             padding:10px;
@@ -94,7 +99,12 @@
          }  
         .left{
             background-color:$color__dark-blue;
-            margin-right:24px;
+            margin-right:0;
+            display:flex;
+            align-items: center;
+            @media only screen and (min-width:$tablet){
+                margin-right:24px;
+            }
             &:hover, &:focus{
                 background-color:#fff;
                 color:$color__dark-blue;
@@ -102,7 +112,12 @@
         }
         .right{
             background-color:$color__main-blue;
-            margin-left:38px;
+            margin-left:0;
+            display:flex;
+            align-items: center;
+            @media only screen and (min-width:$tablet){
+                margin-left:38px;
+            }
             &:hover, &:focus{
                 background-color:#fff;
                 color:$color__dark-blue;
