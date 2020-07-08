@@ -6273,7 +6273,12 @@ body.page .main-navigation {
   }
 }
 
+.focus-area img {
+  display: none;
+}
+
 .focus-area--img {
+  display: block;
   -o-object-fit: cover;
      object-fit: cover;
   height: 100%;
@@ -6340,6 +6345,14 @@ body.page .main-navigation {
   display: block;
   margin: 2rem auto;
   content: '';
+}
+
+.focus-area h3 {
+  display: none;
+}
+
+.focus-area--subhead {
+  display: block;
 }
 
 .focus-area--copy {

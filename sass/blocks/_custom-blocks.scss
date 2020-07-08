@@ -165,7 +165,9 @@
         grid-template-rows:auto;
         min-height:45vw;
     }
+    img{display:none;}
     &--img{
+        display:block;
         object-fit:cover;
         height:100%;
         width:100%;
@@ -199,6 +201,8 @@
             content:'';
         }
     }
+    h3{display:none;}
+    &--subhead{display:block;}
     &--copy{
         text-align:center;
         margin-top:0;
