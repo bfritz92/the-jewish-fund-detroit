@@ -4627,6 +4627,14 @@ body.page .main-navigation {
   background-color: #f4f4f4;
 }
 
+.striped-list li a[href$=".pdf"]:after {
+  display: inline-block;
+  font-family: "Font Awesome 5 Pro";
+  content: "\f1c1";
+  font-weight: 900;
+  padding-left: 10px;
+}
+
 @media only screen and (max-width: 400px) {
   .page {
     overflow-x: hidden;

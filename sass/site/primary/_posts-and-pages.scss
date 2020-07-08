@@ -336,10 +336,6 @@
 	} 
   }
   
-	
-
-  
-  
 .striped-list {
 	list-style-type: none;
 	padding-left: 0;
@@ -348,6 +344,13 @@
   		&:nth-child(2n+1) {
 		background-color: #f4f4f4;
 		}
+		a[href$=".pdf"]:after {
+			display: inline-block;
+			font-family: "Font Awesome 5 Pro";
+			content: "\f1c1";
+			font-weight: 900;
+			padding-left: 10px;
+		  }
 	}
   }
 
