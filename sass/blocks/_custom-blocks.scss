@@ -102,8 +102,10 @@
             margin-right:0;
             display:flex;
             align-items: center;
+            text-align:center;
             @media only screen and (min-width:$tablet){
                 margin-right:24px;
+                text-align:left;
             }
             &:hover, &:focus{
                 background-color:#fff;
@@ -115,8 +117,11 @@
             margin-left:0;
             display:flex;
             align-items: center;
+            justify-content:center;
+            text-align:center;
             @media only screen and (min-width:$tablet){
                 margin-left:38px;
+                text-align:right;
             }
             &:hover, &:focus{
                 background-color:#fff;
