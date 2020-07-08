@@ -201,7 +201,7 @@
             content:'';
         }
     }
-    h3{display:none;}
+    h3:not(.focus-area--subhead){display:none;}
     &--subhead{display:block;}
     &--copy{
         text-align:center;
