@@ -6273,7 +6273,7 @@ body.page .main-navigation {
   }
 }
 
-.focus-area img {
+.focus-area img:not(.focus-area--img) {
   display: none;
 }
 
