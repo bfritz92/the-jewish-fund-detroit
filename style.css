@@ -6138,6 +6138,7 @@ body.page .main-navigation {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
+    width: 80%;
   }
 }
 
@@ -6162,7 +6163,6 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 700px) {
   .splash--links div .left {
-    margin-right: 24px;
     text-align: left;
   }
 }
@@ -6189,7 +6189,6 @@ body.page .main-navigation {
 
 @media only screen and (min-width: 700px) {
   .splash--links div .right {
-    margin-left: 38px;
     text-align: right;
   }
 }

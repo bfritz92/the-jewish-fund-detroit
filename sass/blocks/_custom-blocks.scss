@@ -91,6 +91,7 @@
             justify-content:center;
             @media only screen and (min-width:$tablet){
                 justify-content:space-between;
+                width:80%;
             }
             a{
             color:#fff;
@@ -104,7 +105,6 @@
             align-items: center;
             text-align:center;
             @media only screen and (min-width:$tablet){
-                margin-right:24px;
                 text-align:left;
             }
             &:hover, &:focus{
@@ -120,7 +120,6 @@
             justify-content:center;
             text-align:center;
             @media only screen and (min-width:$tablet){
-                margin-left:38px;
                 text-align:right;
             }
             &:hover, &:focus{
