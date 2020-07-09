@@ -46,7 +46,7 @@ $standalone = get_field('standalone_page');
 						<!-- Name -->	
 						<li class="board--member--name"><h4><?php echo $staff_name; ?></h4></li>
 						<!-- Title -->	
-						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
+						<li class="board--member--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
 					</ul>
 						</div>
 				<?php endwhile;	?>
@@ -72,7 +72,7 @@ $standalone = get_field('standalone_page');
 						<!-- Name -->	
 						<li class="board--member--name"><h4><?php echo $staff_name; ?></h4></li>
 						<!-- Title -->	
-						<li class="directory-item--info--title"><p class="dark-gray italic"><?php echo $title ?></p></li>						
+						<li class="board--member--title"><p class="dark-gray italic"><?php echo $title ?></p></li>						
 					</ul>
 		
 				<?php endwhile;	?>
