@@ -57,7 +57,7 @@ $standalone = get_field('standalone_page');
 		if( have_rows('block_staff') ):		
 			 // loop through the rows of data
 	?>
-	<section id="staff" class="board">
+	<section id="staff" class="board limit-900">
 			<div class="staff-grid">
 			<?php
 					while ( have_rows('block_staff') ) : the_row();
