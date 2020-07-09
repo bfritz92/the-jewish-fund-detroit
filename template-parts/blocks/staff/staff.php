@@ -57,19 +57,15 @@ $standalone = get_field('standalone_page');
 		if( have_rows('block_staff') ):		
 			 // loop through the rows of data
 	?>
-	<section id="staff" class="grid">
-		<div class="staff-panel">
-			<h2 class="staff-grid--intro blue fade"><?php the_field('staff_header',$post_id); ?></h2>
+	<section id="staff" class="board">
 			<div class="staff-grid">
 			<?php
 					while ( have_rows('block_staff') ) : the_row();
 					$picture = get_sub_field('picture');
 					$staff_name = get_sub_field('staff_name');
 					$title = get_sub_field('title');
-				?>	
-				<div class="board">
-					<!-- Featured Image -->
-					
+				?>
+					<!-- Individual Member -->
 					<ul class="board--member">
 						<!-- Picture -->
 						<li><img class="board--member--img" src="<?php echo $picture['url']; ?>" alt="<?php echo $picture['alt']; ?>" /></li>
@@ -78,11 +74,9 @@ $standalone = get_field('standalone_page');
 						<!-- Title -->	
 						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
 					</ul>
-						</div>
+		
 				<?php endwhile;	?>
 			</div>
-
-		</div>
 	</section>
 
 	<?php endif; ?>	
