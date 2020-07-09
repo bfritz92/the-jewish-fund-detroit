@@ -33,41 +33,22 @@ $standalone = get_field('standalone_page');
 	?>
 				<?php
 					while ( have_rows('block_staff') ) : the_row();
-					$user 		= get_sub_field('staff_name');
-					$user_id	= $user['ID'];
-					$firstname 	= $user['user_firstname'];
-					$lastname 	= $user['user_lastname'];
-					$email		= $user['user_email'];
-					$headshot	= get_field('headshot', "user_{$user_id}");
-					$title		= get_field('title', "user_{$user_id}");
-					$phone		= get_field('phone_number', "user_{$user_id}");
-					$excerpt 	= get_field('excerpt', "user_{$user_id}");
-					$full_text 	= get_field('full_text', "user_{$user_id}");
+					$picture = get_sub_field('picture');
+					$staff_name = get_sub_field('staff_name');
+					$title = get_sub_field('title');
 				?>	
-				<section class="directory-item">
+				<div class="board">
 					<!-- Featured Image -->
-					<img class="directory-item--img" src="<?php echo $headshot['url']; ?>" alt="<?php echo $headshot['alt']; ?>" />
-					<ul class="directory-item--info">
+					
+					<ul class="board--member">
+						<!-- Picture -->
+						<li><img class="board--member--img" src="<?php echo $picture['url']; ?>" alt="<?php echo $picture['alt']; ?>" /></li>
 						<!-- Name -->	
-						<li class="directory-item--info--name"><h2><?php echo $firstname; ?> <?php echo $lastname; ?></h2></li>
-						<!-- Position Title -->	
-						<?php if ($title) : ?>
-						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>
-						<?php endif; ?>
-						<!-- Excerpt -->	
-						<?php if ($excerpt) : ?>
-							<li class="directory-item--info--excerpt"><p><?php echo $excerpt ?></p></li>
-						<?php endif; ?>
-						<!-- Full Text -->	
-						<?php if ($full_text) : ?>
-						<div id="<?php echo esc_attr($id); ?>" class="accordion-item <?php echo esc_attr($className); ?>">
-							<div class="accordion-header">
-								<h2>Read More</h2></div>
-							<div class="accordion-body"><li class="directory-item--info--full-text"><p><?php echo $full_text ?></p></li></div>
-						</div>
-						<?php endif; ?>								
+						<li class="board--member--name"><h4><?php echo $firstname; ?> <?php echo $lastname; ?></h4></li>
+						<!-- Title -->	
+						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
 					</ul>
-				</section>
+						</div>
 				<?php endwhile;	?>
 	<?php endif; ?>	
 <?php else : ?>	
@@ -80,26 +61,24 @@ $standalone = get_field('standalone_page');
 		<div class="staff-panel">
 			<h2 class="staff-grid--intro blue fade"><?php the_field('staff_header',$post_id); ?></h2>
 			<div class="staff-grid">
-				<?php
+			<?php
 					while ( have_rows('block_staff') ) : the_row();
-					$user 		= get_sub_field('staff_name');
-					$user_id	= $user['ID'];
-					$firstname 	= $user['user_firstname'];
-					$lastname 	= $user['user_lastname'];
-					$email		= $user['user_email'];
-					$headshot	= get_field('headshot', "user_{$user_id}");
-					$title		= get_field('title', "user_{$user_id}");
-					$phone		= get_field('phone_number', "user_{$user_id}");
-				?>		
-				<div class="staff-grid--profile fade">
-					<img src="<?php echo $headshot['url']; ?>" />
-					<ul class="staff-grid--profile--info">
-						<li class="name"><h5 class="blue"><?php echo $firstname; ?> <?php echo $lastname; ?></h5></li>
-						<li class="title"><?php echo $title; ?></li>
-						<li class="email"><a href="mailto:<?php echo $email; ?>"><?php echo $email; ?></a></li>
-						<li class="phone"><?php echo $phone; ?></li>
+					$picture = get_sub_field('picture');
+					$staff_name = get_sub_field('staff_name');
+					$title = get_sub_field('title');
+				?>	
+				<div class="board">
+					<!-- Featured Image -->
+					
+					<ul class="board--member">
+						<!-- Picture -->
+						<li><img class="board--member--img" src="<?php echo $picture['url']; ?>" alt="<?php echo $picture['alt']; ?>" /></li>
+						<!-- Name -->	
+						<li class="board--member--name"><h4><?php echo $firstname; ?> <?php echo $lastname; ?></h4></li>
+						<!-- Title -->	
+						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
 					</ul>
-				</div>
+						</div>
 				<?php endwhile;	?>
 			</div>
 
