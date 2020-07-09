@@ -6347,7 +6347,7 @@ body.page .main-navigation {
   content: '';
 }
 
-.focus-area h3 {
+.focus-area h3:not(.focus-area--subhead) {
   display: none;
 }
 
@@ -6658,6 +6658,42 @@ body.page .main-navigation {
 
 .arrow-focus.cloud .arrow-focus--panel .link:hover, .arrow-focus.cloud .arrow-focus--panel .link:focus {
   color: #264160;
+}
+
+.staff-grid {
+  display: -ms-grid;
+  display: grid;
+  grid-gap: 10px;
+  -ms-grid-columns: (minmax(210px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
+  color: #444;
+}
+
+.board--member {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: start;
+  list-style-type: none;
+}
+
+.board--member--name h4 {
+  margin: 0;
+}
+
+.board--member--title p {
+  margin-top: 10px;
+  line-height: 1.3;
+  font-size: .8rem;
 }
 
 .annual-report--splash {
