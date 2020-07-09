@@ -70,9 +70,9 @@ $standalone = get_field('standalone_page');
 						<!-- Picture -->
 						<li><img class="board--member--img" src="<?php echo $picture['url']; ?>" alt="<?php echo $picture['alt']; ?>" /></li>
 						<!-- Name -->	
-						<li class="board--member--name"><h4><?php echo $firstname; ?> <?php echo $lastname; ?></h4></li>
+						<li class="board--member--name"><h4><?php echo $staff_name; ?> <?php echo $staff_name; ?></h4></li>
 						<!-- Title -->	
-						<li class="directory-item--info--title"><h3 class="dark-gray"><?php echo $title ?></h3></li>						
+						<li class="directory-item--info--title"><p class="dark-gray italic"><?php echo $title ?></p></li>						
 					</ul>
 		
 				<?php endwhile;	?>
