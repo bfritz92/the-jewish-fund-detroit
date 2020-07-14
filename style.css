@@ -3022,6 +3022,10 @@ a[href$=".ppt"]:after {
   width: 130px;
 }
 
+.site-header .site-branding-container .site-branding .site-logo .custom-logo-link {
+  display: block;
+}
+
 .site-header .site-branding-container .site-title {
   display: none;
 }
@@ -3044,7 +3048,7 @@ a[href$=".ppt"]:after {
           align-items: center;
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 700px) {
   .site-header .site-branding-container .nav-list {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;

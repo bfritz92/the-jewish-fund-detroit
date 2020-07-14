@@ -20,6 +20,9 @@
 
 		.site-branding {
 			width:130px;
+			.site-logo .custom-logo-link{
+				display:block;
+			}
 		}
 		.site-title{display:none;}
 		.nav-list{
@@ -30,7 +33,7 @@
 			list-style: none;
 			font-size: .8rem;
 			align-items: center;
-			@media only screen and (min-width:$large-tablet){
+			@media only screen and (min-width:$tablet){
 				flex-direction:row;
 			}
 		}
