@@ -2989,6 +2989,20 @@ a[href$=".ppt"]:after {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.sub-menu {
+  position: absolute;
+  z-index: 2;
+  background-color: #fff;
+  padding: 10px 15px;
+  list-style: none;
+  display: none;
+}
+
+ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
+ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
+  display: block;
+}
+
 /* Social menu */
 .social-navigation {
   margin-top: calc(1rem / 2);
