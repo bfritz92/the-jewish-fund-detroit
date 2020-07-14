@@ -29,7 +29,7 @@
 
 			<div class="site-branding-container">
 				<?php get_template_part( 'template-parts/header/site', 'branding' ); ?>
-				<?php wp_nav_menu( array( 'theme_location' => 'header-mainnav','container' => '','menu_id'=> 'navList','menu_class'=> 'nav-list hide-for-mobile' ) ); ?>
+				<?php wp_nav_menu( array( 'theme_location' => 'header-mainnav','container' => '','menu_id'=> 'navList','menu_class'=> 'nav-list' ) ); ?>
 			</div><!-- .site-branding-container -->
 
 			<?php if ( is_singular() && twentynineteen_can_show_post_thumbnail() ) : ?>
