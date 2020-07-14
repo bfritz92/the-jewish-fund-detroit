@@ -2989,13 +2989,81 @@ a[href$=".ppt"]:after {
 /*--------------------------------------------------------------
 ## Menus
 --------------------------------------------------------------*/
+.site-header {
+  padding: 1em;
+}
+
+.site-header.featured-image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.site-header.featured-image .site-branding-container {
+  margin-bottom: auto;
+  width: 100%;
+}
+
+.site-header .site-branding-container {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.site-header .site-branding-container .site-branding {
+  width: 130px;
+}
+
+.site-header .site-branding-container .site-title {
+  display: none;
+}
+
+.site-header .site-branding-container .nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  list-style: none;
+  font-size: .8rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@media only screen and (min-width: 920px) {
+  .site-header .site-branding-container .nav-list {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+  }
+}
+
 .sub-menu {
   position: absolute;
-  z-index: 2;
+  z-index: 3;
   background-color: #fff;
   padding: 10px 15px;
   list-style: none;
   display: none;
+}
+
+.sub-menu li {
+  padding: 5px 0;
 }
 
 ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
@@ -3434,108 +3502,6 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
 /*--------------------------------------------------------------
 ## Header
 --------------------------------------------------------------*/
-.site-header {
-  padding: 1em;
-}
-
-.site-header.featured-image {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-}
-
-.site-header.featured-image .site-branding-container {
-  margin-bottom: auto;
-  width: 100%;
-}
-
-.site-header .site-branding-container {
-  width: 100%;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-.site-header .site-branding-container .site-branding {
-  width: 130px;
-}
-
-.site-header .site-branding-container .nav-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 100%;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  list-style: none;
-  font-size: .8rem;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
-.site-logo .custom-logo-link {
-  display: block;
-}
-
-.site-title {
-  margin: auto;
-  display: none;
-  color: #111;
-  /* When there is no description set, make sure navigation appears below title. */
-}
-
-.site-title a {
-  color: #111;
-}
-
-.site-title a:link, .site-title a:visited {
-  color: #111;
-}
-
-.site-title a:hover {
-  color: #4a4a4a;
-}
-
-.featured-image .site-title {
-  margin: 0;
-}
-
-@media only screen and (min-width: 768px) {
-  .featured-image .site-title {
-    display: inline-block;
-  }
-}
-
-.site-title + .main-navigation {
-  display: block;
-}
-
-@media only screen and (min-width: 768px) {
-  .site-title {
-    display: inline;
-  }
-}
-
-.site-title:not(:empty) + .site-description:not(:empty):before {
-  content: "\2014";
-  margin: 0 .2em;
-}
-
-.site-description {
-  display: inline;
-  color: #767676;
-  font-weight: normal;
-  margin: 0;
-}
-
 .site-header.featured-image {
   /* Hide overflow for overflowing featured image */
   overflow: hidden;
