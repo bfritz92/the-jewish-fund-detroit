@@ -28,9 +28,6 @@
 			list-style: none;
 			font-size: .8rem;
 			align-items: center;
-			@media only screen and (max-width:$large-tablet){
-				display:none;
-			}
 		}
 	}
 }
