@@ -48,12 +48,17 @@
 
 //menu styles
 .sub-menu {
-	position: absolute;
-	z-index: 3;
-	background-color: #fff;
-	padding: 10px 15px;
 	list-style: none;
 	display: none;
+	position:relative;
+	z-index:1;
+	background-color:transparent;
+	@media only screen and (min-width:$tablet){
+		position: absolute;
+		z-index: 3;
+		background-color: #fff;
+		padding: 10px 15px;
+	}
 	li{
 		padding:5px 0;
 	}
