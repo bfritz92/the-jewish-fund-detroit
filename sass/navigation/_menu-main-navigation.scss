@@ -68,5 +68,10 @@
 }
 ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
 ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
+	@media only screen and (min-width:$large-tablet){
+		display:block;	
+	}
+}
+ul.nav-list li.menu.menu-item-has-children.show ul.sub-menu{
 	display:block;
 }
