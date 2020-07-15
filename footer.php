@@ -56,8 +56,10 @@
 		menuButton.firstElementChild.classList.toggle('.show');
 	}
 	const menuToggle = document.querySelectorAll('.menu-toggle');
+	console.log('grabbed the menu toggle');
 	menuToggle.addEventListener(click, showMenu);
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
+	console.log('grabbed the submenus');
 	hasSubMenu.addEventListener(click, showMenu);
 </script>
 
