@@ -55,10 +55,10 @@
 	
 	const menuToggle = document.querySelectorAll('.menu-toggle');
 	console.log('grabbed the menu toggle');
-	menuToggle.addEventListener(click, showMenu);
+	menuToggle.addEventListener('click', showMenu);
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
 	console.log('grabbed the submenus');
-	hasSubMenu.addEventListener(click, showMenu);
+	hasSubMenu.addEventListener('click', showMenu);
 	function showMenu() {
 		console.log('clicked');
 		target.firstElementChild.classList.toggle('.show');
