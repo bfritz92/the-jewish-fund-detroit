@@ -59,9 +59,9 @@
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
 	console.log('grabbed the submenus');
 	hasSubMenu.addEventListener(click, showMenu);
-	function showMenu(menuButton) {
+	function showMenu() {
 		console.log('clicked');
-		menuButton.firstElementChild.classList.toggle('.show');
+		target.firstElementChild.classList.toggle('.show');
 	}
 </script>
 
