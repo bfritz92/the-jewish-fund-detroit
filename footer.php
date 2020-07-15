@@ -52,7 +52,13 @@
 	var tabs = new Tabby('[data-tabs]');
 </script>
 <script >
-	console.log('working!');
+	function showMenu(menuButton) {
+		menuButton.firstElementChild.classList.toggle('.show');
+	}
+	const menuToggle = document.querySelectorAll('.menu-toggle');
+	menuToggle.addEventListener(click, showMenu);
+	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
+	hasSubMenu.addEventListener(click, showMenu);
 </script>
 
 </script>
