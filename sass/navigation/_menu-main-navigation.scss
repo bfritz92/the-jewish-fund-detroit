@@ -18,7 +18,7 @@
 		width:100%;
 		display:flex;
 		flex-direction:column;
-		@media only screen and (min-width:$tablet){
+		@media only screen and (min-width:$large-tablet){
 			flex-direction:row;
 			justify-content:space-between;
 		}

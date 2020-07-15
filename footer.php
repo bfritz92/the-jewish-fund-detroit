@@ -51,5 +51,8 @@
 <script>
 	var tabs = new Tabby('[data-tabs]');
 </script>
+<script src="/js/menu-toggle.js"></script>
+
+</script>
 </body>
 </html>
