@@ -3106,8 +3106,12 @@ a[href$=".ppt"]:after {
   }
 }
 
-ul.nav-list li.menu.menu-item-has-children.show ul.sub-menu {
+.show {
   display: block;
+}
+
+.hide {
+  display: none;
 }
 
 /* Social menu */
