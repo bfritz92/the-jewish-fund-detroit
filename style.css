@@ -3064,6 +3064,7 @@ a[href$=".ppt"]:after {
       -ms-flex-align: center;
           align-items: center;
   max-width: 750px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 700px) {
@@ -3072,6 +3073,7 @@ a[href$=".ppt"]:after {
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
             flex-direction: row;
+    text-align: left;
   }
 }
 
@@ -3081,6 +3083,7 @@ a[href$=".ppt"]:after {
   position: relative;
   z-index: 1;
   background-color: transparent;
+  padding: 0;
 }
 
 @media only screen and (min-width: 700px) {
