@@ -55,13 +55,14 @@
 	
 	const menuToggle = document.querySelectorAll('.menu-toggle');
 	console.log('grabbed the menu toggle');
-	menuToggle.addEventListener('click', function() {
+	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
+	console.log('grabbed the submenus');
+	menuToggle.addEventListener("click", function() {
 		const menu = document.querySelectorAll('.nav-list');
 		menu.classList.toggle('.show');
 	});
-	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
-	console.log('grabbed the submenus');
-	hasSubMenu.addEventListener('click', showMenu);
+	
+	hasSubMenu.addEventListener("click", showMenu);
 	function showMenu() {
 		console.log('clicked');
 		target.firstElementChild.classList.toggle('.show');
