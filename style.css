@@ -3035,12 +3035,36 @@ a[href$=".ppt"]:after {
 }
 
 .site-header .site-branding-container .site-branding {
-  width: 130px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+@media only screen and (min-width: 920px) {
+  .site-header .site-branding-container .site-branding {
+    display: block;
+  }
 }
 
 .site-header .site-branding-container .site-branding .site-logo .custom-logo-link {
   display: block;
-  width: 100%;
+  width: 130px;
+}
+
+.site-header .site-branding-container .site-branding .menu-toggle {
+  display: block;
+}
+
+@media only screen and (min-width: 920px) {
+  .site-header .site-branding-container .site-branding .menu-toggle {
+    display: none;
+  }
 }
 
 .site-header .site-branding-container .site-title {
@@ -3108,10 +3132,12 @@ a[href$=".ppt"]:after {
 
 .show {
   display: block;
+  opacity: 100%;
 }
 
 .hide {
   display: none;
+  opacity: 0;
 }
 
 /* Social menu */

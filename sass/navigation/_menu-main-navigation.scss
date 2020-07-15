@@ -23,10 +23,21 @@
 			justify-content:space-between;
 		}
 		.site-branding {
-			width:130px;
+			display:flex;
+			align-items: center;
+			justify-content: space-between;
+			@media only screen and (min-width:$large-tablet){
+				display:block;
+			}
 			.site-logo .custom-logo-link{
 				display:block;
-				width:100%;
+				width:130px;
+			}
+			.menu-toggle{
+				display:block;
+				@media only screen and (min-width:$large-tablet){
+					display:none;
+				}
 			}
 		}
 		.site-title{display:none;}
@@ -72,5 +83,5 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
 		display:block;	
 	}
 }
-.show{display:block;}
-.hide{display:none;}
+.show{display:block; opacity:100%}
+.hide{display:none; opacity:0;}
