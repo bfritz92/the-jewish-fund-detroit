@@ -51,7 +51,7 @@
 <script>
 	var tabs = new Tabby('[data-tabs]');
 </script>
-<script src="/js/menu-toggle.js"></script>
+<script src="http://67.225.242.80/~brianjewishdetro/wp-content/themes/the-jewish-fund/js/menu-toggle.js"></script>
 
 </script>
 </body>
