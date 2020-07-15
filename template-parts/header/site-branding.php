@@ -20,7 +20,7 @@
 			<p class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 		<?php endif; ?>
 	<?php endif; ?>
-	<a class="menu-toggle"><i class="fas fa-bars"></i></a>
+	<a class="menu-toggle"><i class="fas fa-bars fa-2x"></i></a>
 	<?php
 	$description = get_bloginfo( 'description', 'display' );
 	if ( $description || is_customize_preview() ) :
