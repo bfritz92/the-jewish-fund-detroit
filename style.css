@@ -3137,6 +3137,13 @@ a[href$=".ppt"]:after {
   }
 }
 
+ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu .show,
+ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .show {
   display: block;
   opacity: 100%;
