@@ -50,7 +50,7 @@
 
 <script >
 	//grabbing constants
-	const dean = document.querySelectorAll('.menu-toggle');
+	const menuToggle = document.querySelectorAll('.menu-toggle');
 	console.log('grabbed the menu toggle');
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
 	console.log('grabbed the submenus');
@@ -62,7 +62,14 @@
 		//this part! pay attention, Git!
 		navList[0].classList.toggle('show');
 	};
-	dean[0].addEventListener('click', handleMenuClick);
+	menuToggle[0].addEventListener('click', handleMenuClick);
+
+	hasSubMenu.forEach(function(e){
+		e.addEventListener('click', handleSubMenuClick);
+	});
+	function handleSubMenuClick (){
+		target.lastChild.classList.toggle('show');
+	}
 
 </script>
 
