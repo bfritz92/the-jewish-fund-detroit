@@ -64,12 +64,12 @@
 	};
 	menuToggle[0].addEventListener('click', handleMenuClick);
 
-	hasSubMenu.forEach(function(e){
-		e.addEventListener('click', handleSubMenuClick);
-	});
-	function handleSubMenuClick (){
+	function expandSubMenu(event){
 		target.lastChild.classList.toggle('show');
 	}
+	hasSubMenu.forEach(function(handleSubMenu){
+		target.lastChild.classList.toggle('show');
+	});
 
 </script>
 
