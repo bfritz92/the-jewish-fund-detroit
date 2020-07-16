@@ -68,6 +68,7 @@
   		item.addEventListener('click', event => {
 			console.log('clicked it');
 			//forcing change here again
+			//forcing change here again
 			hasSubMenu.querySelectorAll('ul')[0].classList.toggle('show');
   		})
 	})
