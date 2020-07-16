@@ -67,7 +67,7 @@
 	hasSubMenu.forEach(item => {
   		item.addEventListener('click', event => {
 			console.log('clicked it');
-			currentTarget.lastChild.classList.toggle('show');
+			item.lastChild.classList.toggle('show');
   		})
 	})
 
