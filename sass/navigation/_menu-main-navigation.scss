@@ -70,7 +70,7 @@
 	z-index:1;
 	background-color:transparent;
 	padding:0;
-	@media only screen and (min-width:$tablet){
+	@media only screen and (min-width:$large-tablet){
 		position: absolute;
 		z-index: 3;
 		background-color: #fff;
