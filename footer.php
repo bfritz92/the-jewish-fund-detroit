@@ -67,9 +67,8 @@
 	hasSubMenu.forEach(item => {
   		item.addEventListener('click', event => {
 			console.log('clicked it');
-			
-			const subMenu = currentTarget.querySelectorAll('.sub-menu')[0];
-			subMenu.classList.toggle('show');
+			const current = event.currentTarget.childNode[1];
+			current.classList.toggle('show');
   		})
 	})
 
