@@ -50,7 +50,7 @@
 
 <script >
 	//grabbing constants
-	const menuToggle = document.querySelectorAll('.menu-toggle');
+	const frank = document.querySelectorAll('.menu-toggle');
 	console.log('grabbed the menu toggle');
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
 	console.log('grabbed the submenus');
@@ -60,7 +60,7 @@
 		const button = event.target;
 		console.log(event.target);
 	};
-	menuToggle.addEventListener('click', handleMenuClick);
+	frank.addEventListener('click', handleMenuClick);
 
 </script>
 
