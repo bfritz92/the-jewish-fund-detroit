@@ -59,7 +59,8 @@
 		console.log('clicked!');
 		const button = event.target;
 		console.log(event.target);
-	}
+	};
+	menuToggle.addEventListener('click', handleMenuClick);
 
 </script>
 
