@@ -75,6 +75,16 @@
   		})
 	})
 
+  	const dropDown = document.querySelectorAll('.menu-item-has-children');
+  	for(i=0;i<dropDown.length;i++)
+	dropDown[i].onclick=doSomething;
+
+	function doSomething() {
+ 	const current = event.currentTarget;
+ 	current.querySelector("ul").classList.toggle("show");
+
+	}
+
 </script>
 
 </script>
