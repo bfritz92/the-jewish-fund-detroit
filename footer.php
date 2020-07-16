@@ -47,19 +47,22 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        <script src="/wp-content/themes/twentynineteen/js/tabby.min.js"></script>
 
+        <script>
+	var tabs = new Tabby('[data-tabs]');
+</script>
 <script >
+	//menu functions
 	//grabbing constants
 	const menuToggle = document.querySelectorAll('.menu-toggle');
-	console.log('grabbed the menu toggle');
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
-	console.log('grabbed the submenus');
 	const navList = document.querySelectorAll('#navList');
 	
 	function handleMenuClick(event) {
-		console.log('clicked!');
 		const button = event.target;
-		//this part! pay attention, Git!
 		navList[0].classList.toggle('show');
 	};
 	menuToggle[0].addEventListener('click', handleMenuClick);
@@ -75,7 +78,30 @@
 	}
 
 </script>
+<!-- Navbar Scroll-hide -->
+<script>
+$(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('#masthead');
 
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollyhide");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollyhide");
+      }
+      c = currentScrollTop;
+  });
+  
+});
 </script>
 </body>
 </html>
