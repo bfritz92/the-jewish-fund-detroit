@@ -68,8 +68,8 @@
   		item.addEventListener('click', event => {
 			console.log('clicked it');
 			
-			const subMenu = hasSubMenu.querySelectorAll('.sub-menu');
-			subMenu[0].classList.toggle('show');
+			const subMenu = hasSubMenu.querySelectorAll('.sub-menu')[0];
+			subMenu.classList.toggle('show');
   		})
 	})
 
