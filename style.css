@@ -3137,7 +3137,7 @@ a[href$=".ppt"]:after {
   }
 }
 
-ul.nav-list.show {
+.show {
   display: block;
   opacity: 100%;
 }
