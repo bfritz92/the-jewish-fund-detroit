@@ -64,17 +64,6 @@
 	};
 	menuToggle[0].addEventListener('click', handleMenuClick);
 
-	hasSubMenu.forEach(item => {
-  		item.addEventListener('click', event => {
-			console.log('clicked it');
-			//forcing
-			const current = event.currentTarget.childNode[1];
-			//changes
-			current.classList.toggle('show');
-			//fuck off
-  		})
-	})
-
   	const dropDown = document.querySelectorAll('.menu-item-has-children');
   	for(i=0;i<dropDown.length;i++)
 	dropDown[i].onclick=doSomething;
