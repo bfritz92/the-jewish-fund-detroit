@@ -60,7 +60,7 @@
 		const button = event.target;
 		console.log(event.target);
 	};
-	frank.addEventListener('click', handleMenuClick);
+	frank[0].addEventListener('click', handleMenuClick);
 
 </script>
 
