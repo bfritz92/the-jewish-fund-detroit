@@ -3022,7 +3022,7 @@ a[href$=".ppt"]:after {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 920px) {
   .site-header .site-branding-container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -3137,14 +3137,9 @@ a[href$=".ppt"]:after {
   }
 }
 
-.show {
+ul.nav-list.show {
   display: block;
   opacity: 100%;
-}
-
-.hide {
-  display: none;
-  opacity: 0;
 }
 
 /* Social menu */
