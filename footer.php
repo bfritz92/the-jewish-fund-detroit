@@ -68,7 +68,7 @@
 		target.lastChild.classList.toggle('show');
 	}
 	hasSubMenu.forEach(function(handleSubMenu){
-		target.lastChild.classList.toggle('show');
+		target.addEventListener('click', expandSubMenu();
 	});
 
 </script>
