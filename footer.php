@@ -50,17 +50,18 @@
 
 <script >
 	//grabbing constants
-	const frank = document.querySelectorAll('.menu-toggle');
+	const menuToggle = document.querySelectorAll('.menu-toggle');
 	console.log('grabbed the menu toggle');
 	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
 	console.log('grabbed the submenus');
+	const navList = document.querySelectorAll('#navList');
 	
 	function handleMenuClick(event) {
 		console.log('clicked!');
 		const button = event.target;
-		console.log(event.target);
+		navList[0].classList.toggle('.show');
 	};
-	frank[0].addEventListener('click', handleMenuClick);
+	menuToggle[0].addEventListener('click', handleMenuClick);
 
 </script>
 
