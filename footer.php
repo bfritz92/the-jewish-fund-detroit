@@ -47,8 +47,6 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
         <script src="/wp-content/themes/twentynineteen/js/tabby.min.js"></script>
 
         <script>
