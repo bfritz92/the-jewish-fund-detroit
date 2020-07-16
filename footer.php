@@ -47,7 +47,7 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-<script src="http://67.225.242.80/~brianjewishdetro/wp-content/themes/the-jewish-fund/js/tabby.min.js"></script>
+<!-- <script src="http://67.225.242.80/~brianjewishdetro/wp-content/themes/the-jewish-fund/js/tabby.min.js"></script>-->
 <script>
 	var tabs = new Tabby('[data-tabs]');
 </script>
