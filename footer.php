@@ -67,8 +67,11 @@
 	hasSubMenu.forEach(item => {
   		item.addEventListener('click', event => {
 			console.log('clicked it');
+			//forcing
 			const current = event.currentTarget.childNode[1];
+			//changes
 			current.classList.toggle('show');
+			//fuck off
   		})
 	})
 
