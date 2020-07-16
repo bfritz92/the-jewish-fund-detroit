@@ -59,6 +59,7 @@
 	function handleMenuClick(event) {
 		console.log('clicked!');
 		const button = event.target;
+		//this part! pay attention, Git!
 		navList[0].classList.toggle('show');
 	};
 	dean[0].addEventListener('click', handleMenuClick);
