@@ -3130,10 +3130,17 @@ a[href$=".ppt"]:after {
   padding: 5px 0;
 }
 
+ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
+ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
+  opacity: 0%;
+}
+
 @media only screen and (min-width: 920px) {
   ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
   ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
     display: block;
+    -webkit-transition: opacity, .5s;
+    transition: opacity, .5s;
   }
 }
 
@@ -3142,6 +3149,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  opacity: 100%;
 }
 
 .show {
