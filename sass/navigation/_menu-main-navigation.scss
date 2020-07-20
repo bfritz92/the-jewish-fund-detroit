@@ -84,9 +84,10 @@ ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
 ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
 	@media only screen and (min-width:$large-tablet){
 		display:block;	
-		transition:opacity, .5s
+		transition:opacity, .5s;
+		opacity:0%;
 	}
-	.show{display:flex; opacity:100%;}
+	.show{display:flex;}
 }
 //this part is new
 .show{display:block; opacity:100%}

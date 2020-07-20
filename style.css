@@ -3136,6 +3136,7 @@ a[href$=".ppt"]:after {
     display: block;
     -webkit-transition: opacity, .5s;
     transition: opacity, .5s;
+    opacity: 0%;
   }
 }
 
@@ -3144,7 +3145,6 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  opacity: 100%;
 }
 
 .show {
