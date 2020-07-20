@@ -86,6 +86,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
 		display:block;	
 		transition:opacity, .5s;
 		opacity:0%;
+		&:hover{opacity:100%; display:flex;}
 	}
 	.show{display:flex;}
 }
