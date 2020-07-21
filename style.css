@@ -2030,12 +2030,12 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding-right: 10px;
 }
 
-.picture-left {
+.picture-right {
   float: left;
   padding: 10px 0 10px 25px;
 }
 
-.picture-right {
+.picture-left {
   float: right;
   padding: 10px 25px 10px 0;
 }
