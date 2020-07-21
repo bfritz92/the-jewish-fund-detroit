@@ -2031,12 +2031,12 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 }
 
 .picture-right {
-  float: left;
+  float: right;
   padding: 10px 0 10px 25px;
 }
 
 .picture-left {
-  float: right;
+  float: left;
   padding: 10px 25px 10px 0;
 }
 
