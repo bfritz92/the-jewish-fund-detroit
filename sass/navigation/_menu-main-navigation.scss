@@ -79,6 +79,10 @@
 	}
 	li{
 		padding:5px 0;
+		&:nth-child(2n+1), &:hover {
+			background-color: #f4f4f4;
+			}
+		
 	}
 }
 ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,

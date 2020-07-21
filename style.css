@@ -3131,6 +3131,10 @@ a[href$=".ppt"]:after {
   padding: 5px 0;
 }
 
+.sub-menu li:nth-child(2n+1), .sub-menu li:hover {
+  background-color: #f4f4f4;
+}
+
 @media only screen and (min-width: 920px) {
   ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
   ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
