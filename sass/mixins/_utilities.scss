@@ -401,11 +401,8 @@ $widescreen: 2000px;
 	padding-right:10px;
   }
 
-.picture-spacing{
-	padding:10px;
-}
-.picture-left{float:left;}
-.picture-right{float:right;}
+.picture-left{float:left; padding:10px 0 10px 25px;}
+.picture-right{float:right; padding:10px 25px 10px 0;}
 .hide-for-mobile{
   display:none;
   @media only screen and (min-width:700px){
