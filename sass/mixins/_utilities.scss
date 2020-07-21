@@ -354,6 +354,12 @@ $widescreen: 2000px;
 .pl10{padding-left:10vw;}
 .pr10{padding-right:10vw;}
 
+.mt10px{margin-top:10px;}
+.mb10px{margin-bottom:10px;}
+.pt10px{padding-top:10px;}
+.pb10px{padding-bottom:10px;}
+.pl10px{padding-left:10px;}
+.pr10px{padding-right:10px;}
 
 .left{text-align:left;}
 .right{text-align:right;}
@@ -394,6 +400,10 @@ $widescreen: 2000px;
 	padding-left:10px;
 	padding-right:10px;
   }
+
+.picture-spacing{
+	padding:10px;
+}
 .hide-for-mobile{
   display:none;
   @media only screen and (min-width:700px){

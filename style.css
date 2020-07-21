@@ -1951,6 +1951,30 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding-right: 10vw;
 }
 
+.mt10px {
+  margin-top: 10px;
+}
+
+.mb10px {
+  margin-bottom: 10px;
+}
+
+.pt10px {
+  padding-top: 10px;
+}
+
+.pb10px {
+  padding-bottom: 10px;
+}
+
+.pl10px {
+  padding-left: 10px;
+}
+
+.pr10px {
+  padding-right: 10px;
+}
+
 .left {
   text-align: left;
 }
@@ -2004,6 +2028,10 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   margin: auto;
   padding-left: 10px;
   padding-right: 10px;
+}
+
+.picture-spacing {
+  padding: 10px;
 }
 
 .hide-for-mobile {
