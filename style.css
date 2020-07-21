@@ -2430,7 +2430,7 @@ body {
   font-family: "Bitter", serif;
   font-weight: 400;
   font-size: 1em;
-  line-height: 1.8;
+  line-height: 1.6;
   margin: 0;
   text-rendering: optimizeLegibility;
 }
@@ -2443,7 +2443,7 @@ textarea {
   color: #111;
   font-family: "Bitter", serif;
   font-weight: 400;
-  line-height: 1.8;
+  line-height: 1.6;
   text-rendering: optimizeLegibility;
 }
 
@@ -2639,7 +2639,7 @@ blockquote cite {
 pre {
   font-size: 0.88889em;
   font-family: "Courier 10 Pitch", Courier, monospace;
-  line-height: 1.8;
+  line-height: 1.6;
   overflow: auto;
 }
 
@@ -2748,7 +2748,7 @@ ol {
 }
 
 li {
-  line-height: 1.8;
+  line-height: 1.6;
 }
 
 li > ul,
