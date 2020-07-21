@@ -780,7 +780,7 @@
 //UTILITY AND LAYOUT BLOCKS
 
 //ONE-THREE
-section.one-three, div.one-three .wp-block-group__inner-container{
+section.one-three, div.one-three:first-child{
     display:block;
     @media only screen and (min-width: $tablet){
         display:grid;
