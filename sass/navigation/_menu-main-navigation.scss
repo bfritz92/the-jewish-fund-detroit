@@ -75,6 +75,7 @@
 	background-color:transparent;
 	padding:0;
 	opacity:0%;
+	transition:opacity, .5s;
 	@media only screen and (min-width:$large-tablet){
 		position: absolute;
 		z-index: 3;
@@ -92,7 +93,7 @@ ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
 ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
 	@media only screen and (min-width:$large-tablet){
 		display:block;	
-		transition:opacity, .5s;
+		
 		opacity:100%;
 	}
 	.show{display:flex;}

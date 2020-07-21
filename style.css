@@ -3123,6 +3123,8 @@ a[href$=".ppt"]:after {
   background-color: transparent;
   padding: 0;
   opacity: 0%;
+  -webkit-transition: opacity, .5s;
+  transition: opacity, .5s;
 }
 
 @media only screen and (min-width: 920px) {
@@ -3145,8 +3147,6 @@ a[href$=".ppt"]:after {
   ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu,
   ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
     display: block;
-    -webkit-transition: opacity, .5s;
-    transition: opacity, .5s;
     opacity: 100%;
   }
 }
