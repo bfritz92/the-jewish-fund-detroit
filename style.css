@@ -2034,6 +2034,14 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding: 10px;
 }
 
+.picture-left {
+  float: left;
+}
+
+.picture-right {
+  float: right;
+}
+
 .hide-for-mobile {
   display: none;
 }
