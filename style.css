@@ -3123,12 +3123,11 @@ a[href$=".ppt"]:after {
     position: absolute;
     z-index: 3;
     background-color: #fff;
-    padding: 10px 15px;
   }
 }
 
 .sub-menu li {
-  padding: 5px 0;
+  padding: 10px 15px;
 }
 
 .sub-menu li:nth-child(2n+1), .sub-menu li:hover {
