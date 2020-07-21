@@ -3089,6 +3089,10 @@ a[href$=".ppt"]:after {
   text-align: center;
 }
 
+.site-header .site-branding-container .nav-list li {
+  line-height: 3;
+}
+
 .site-header .site-branding-container .nav-list.show {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -3105,6 +3109,9 @@ a[href$=".ppt"]:after {
         -ms-flex-direction: row;
             flex-direction: row;
     text-align: left;
+  }
+  .site-header .site-branding-container .nav-list li {
+    line-height: 1.8;
   }
 }
 

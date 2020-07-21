@@ -51,11 +51,15 @@
 			align-items: center;
 			max-width:750px;
 			text-align:center;
+			li{
+				line-height: 3;
+			}
 			&.show{display:flex;}
 			@media only screen and (min-width:$large-tablet){
 				display:flex;
 				flex-direction:row;
 				text-align:left;
+				li{line-height:1.8;}
 			}
 			
 		}
