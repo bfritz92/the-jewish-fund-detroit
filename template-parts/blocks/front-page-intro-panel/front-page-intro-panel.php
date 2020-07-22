@@ -31,15 +31,15 @@ $fpip = get_field('block_front_page_intro_panel');
 		$b = 1;
 		$c = 1;
 ?>	
-	<?php if ( is_home() && ! is_front_page() ) : ?> 
-		<section id="front-page-intro" class="front-page-intro">			
-	<?php endif; ?>			
+	
+					
+			
 	<!-- front-page-intro #begin -->
 	<?php // loop through the rows of data
 		while ( have_rows('block_front_page_intro_panel') ) : the_row();
 		$intro_img_url = get_sub_field('image');
 		$intro_img_order = get_sub_field('image_order'); 
-		$intro_panel_order = get_sub_field('panel_order'); 
+		$intro_panel_id= get_sub_field('panel_id'); 
 		$subhead = get_sub_field('subhead'); 
 		$heading = get_sub_field('heading'); 
 		$copy = get_sub_field('copy'); 
@@ -47,21 +47,23 @@ $fpip = get_field('block_front_page_intro_panel');
 		$link = get_sub_field('link'); 
 	?>
 		<?php if ( is_home() && ! is_front_page() ) : ?>
-			<figure class="front-page-intro--img-<?php echo $a++ ?>" style="background-image:url('<?php echo $intro_img_url?>'); grid-column: <?php echo $intro_img_order?>;">
-		</figure>		
-			<figure class="front-page-intro--panel-<?php echo $b++ ?>" style="grid-column:<?php echo $intro_panel_order?>;">
-			<div class="front-page-intro--panel-<?php echo $c++ ?>--text fade fade-in">
-				<p class="mb0 bold subhead"><?php the_sub_field('subhead');?></p>
-				<h1 class="m0 book heading"><?php the_sub_field('heading');?></h1>
-				<p class="mt0 copy"><?php the_sub_field('copy');?></p>
-				<a href="<?php the_sub_field('link');?>" class="link right" tabindex="0"><?php the_sub_field('link_text');?></a>
-			</div>
-		</figure>
+			<section id="front-page-intro" class="front-page-intro" id="<?php the_sub_field('panel_id');?>>
+				<figure class="front-page-intro--img-<?php echo $a++ ?>">
+				</figure>		
+				<figure class="front-page-intro--panel-<?php echo $b++ ?>">
+				<div class="front-page-intro--panel-<?php echo $c++ ?>--text fade fade-in">
+					<p class="mb0 bold subhead"><?php the_sub_field('subhead');?></p>
+					<h1 class="m0 book heading"><?php the_sub_field('heading');?></h1>
+					<p class="mt0 copy"><?php the_sub_field('copy');?></p>
+					<a href="<?php the_sub_field('link');?>" class="link right" tabindex="0"><?php the_sub_field('link_text');?></a>
+				</div>
+			</figure>
+			</section>
 		<?php else : ?>
-			<section class="<?php the_sub_field('section_css');?> fade fade-in">
-			<img src="<?php echo $intro_img_url?>" class="<?php the_sub_field('image_css');?>" style="grid-column: <?php echo $intro_img_order?>;">
+			<section class="<?php the_sub_field('section_css');?> id="<?php the_sub_field('panel_id');?> fade fade-in">
+			<img src="<?php echo $intro_img_url?>" class="<?php the_sub_field('image_css');?>">
 			<?php if ( get_sub_field('panel_css')) :  ?>
-				<div class="<?php the_sub_field('panel_css');?> fade fade-in" style="grid-column: <?php echo $intro_panel_order?>;">
+				<div class="<?php the_sub_field('panel_css');?> fade fade-in">
 			<?php else : ?>		
 				<div class="feature-panel--copy fade fade-in">
 			<?php endif; ?>			
