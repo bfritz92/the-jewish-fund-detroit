@@ -47,7 +47,7 @@ $fpip = get_field('block_front_page_intro_panel');
 		$link = get_sub_field('link'); 
 	?>
 		<?php if ( is_home() && ! is_front_page() ) : ?>
-			<section id="front-page-intro" class="front-page-intro" id="<?php the_sub_field('panel_id');?>>
+			<section id="front-page-intro" class="front-page-intro" id="<?php the_sub_field('panel_id');?>">
 				<figure class="front-page-intro--img-<?php echo $a++ ?>">
 				</figure>		
 				<figure class="front-page-intro--panel-<?php echo $b++ ?>">
@@ -60,7 +60,7 @@ $fpip = get_field('block_front_page_intro_panel');
 			</figure>
 			</section>
 		<?php else : ?>
-			<section class="<?php the_sub_field('section_css');?>" id="<?php the_sub_field('panel_id');?> fade fade-in">
+			<section class="<?php the_sub_field('section_css');?>" id="<?php the_sub_field('panel_id');?>" fade fade-in">
 			<img src="<?php echo $intro_img_url?>" class="<?php the_sub_field('image_css');?>">
 			<?php if ( get_sub_field('panel_css')) :  ?>
 				<div class="<?php the_sub_field('panel_css');?> fade fade-in">
