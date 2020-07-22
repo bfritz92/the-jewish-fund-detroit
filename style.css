@@ -3126,6 +3126,7 @@ a[href$=".ppt"]:after {
           align-items: center;
   max-width: 750px;
   text-align: center;
+  padding-left: 0;
 }
 
 .site-header .site-branding-container .nav-list li {
@@ -3164,6 +3165,8 @@ a[href$=".ppt"]:after {
   opacity: 0%;
   -webkit-transition: opacity, .5s;
   transition: opacity, .5s;
+  padding-left: 0;
+  width: 100%;
 }
 
 @media only screen and (min-width: 920px) {
@@ -3171,6 +3174,9 @@ a[href$=".ppt"]:after {
     position: absolute;
     z-index: 3;
     background-color: #fff;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
   }
 }
 
