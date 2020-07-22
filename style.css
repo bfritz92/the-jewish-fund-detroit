@@ -3024,7 +3024,7 @@ a[href$=".ppt"]:after {
 ## Menus
 --------------------------------------------------------------*/
 .site-header {
-  padding: 1em;
+  padding: 5px 25px;
   position: -webkit-sticky;
   position: sticky;
   top: 0;
