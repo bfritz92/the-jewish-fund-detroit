@@ -3204,6 +3204,13 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   display: flex;
 }
 
+@media only screen and (min-width: 920px) {
+  ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu .show,
+  ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
+    display: inherit;
+  }
+}
+
 .show {
   display: block;
   opacity: 100%;

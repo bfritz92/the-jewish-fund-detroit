@@ -105,7 +105,11 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu{
 		
 		opacity:100%;
 	}
-	.show{display:flex;}
+	.show{display:flex;
+		@media only screen and (min-width:$large-tablet){
+			display:inherit;
+		}
+	}
 }
-//this part is new
+
 .show{display:block; opacity:100%}
