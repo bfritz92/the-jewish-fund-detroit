@@ -3131,6 +3131,7 @@ a[href$=".ppt"]:after {
 
 .site-header .site-branding-container .nav-list li {
   line-height: 3;
+  width: 100%;
 }
 
 .site-header .site-branding-container .nav-list.show {
