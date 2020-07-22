@@ -2,7 +2,10 @@
 
 .site-header {
 	padding: 1em;
-
+	position: sticky;
+	top: 0;
+	background-color: #fff;
+	z-index: 3;
 	&.featured-image {
 		display: flex;
 		flex-direction: column;
