@@ -6068,6 +6068,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
             clip-path: polygon(83% 0, 100% 50%, 83% 100%, 0% 100%, 0% 0%);
     min-height: 100%;
     height: 100%;
+    min-height: 30vw;
   }
 }
 
