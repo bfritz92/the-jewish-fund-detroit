@@ -44,7 +44,11 @@
 		}
 		.site-logo{
 			display:block;
-			max-width:150px;}
+			max-width:150px;
+			@media only screen and (min-width:$tablet){
+				align-self:center;
+			}
+		}
 		a {
 			color: #fff;
 
@@ -54,8 +58,15 @@
 			}
 		}
 		address{
-			@media only screen and (max-width:$tablet){
-				padding:1rem 0;
+			padding:1rem 0;
+			@media only screen and (min-width:$tablet){
+				padding:0;
+				align-self:center;
+			}
+		}
+		.footer-navigation{
+			@media only screen and (min-width:$tablet){
+				align-self:Center;
 			}
 		}
 		.imprint,

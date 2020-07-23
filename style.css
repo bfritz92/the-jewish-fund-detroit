@@ -4365,6 +4365,14 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   max-width: 150px;
 }
 
+@media only screen and (min-width: 700px) {
+  #colophon .site-info .site-logo {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
 #colophon .site-info a {
   color: #fff;
 }
@@ -4374,9 +4382,24 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   color: #fff;
 }
 
-@media only screen and (max-width: 700px) {
+#colophon .site-info address {
+  padding: 1rem 0;
+}
+
+@media only screen and (min-width: 700px) {
   #colophon .site-info address {
-    padding: 1rem 0;
+    padding: 0;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  #colophon .site-info .footer-navigation {
+    -ms-flex-item-align: Center;
+        -ms-grid-row-align: Center;
+        align-self: Center;
   }
 }
 
