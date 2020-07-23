@@ -4228,6 +4228,7 @@ body.error404 div#page {
           justify-content: space-between;
   background-image: url("http://67.225.242.80/~brianjewishdetro/wp-content/uploads/2020/07/detroit-bg-scaled.jpg");
   background-size: cover;
+  background-position: center;
 }
 
 .error-404 .page-header h1.page-title {
