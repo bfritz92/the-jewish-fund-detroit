@@ -23,9 +23,9 @@
 				<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/uploads/2020/07/jewish-fund-logo-white.svg"></a>
 			<?php endif; ?>
 			<address>
-			<p class="white">6735 Telegraph Road, </p>
-			<p class="white">Bloomfield Hills, MI 48301</p>
-			<p class="white">phone <a href="tel:+2488332434">(248) 833-2434</a></p>
+			<p class="white mt0 mb0">6735 Telegraph Road, </p>
+			<p class="white mt0 mb0">Bloomfield Hills, MI 48301</p>
+			<p class="white mt0 mb0">phone <a href="tel:+2488332434">(248) 833-2434</a></p>
 			</address>
 			
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
