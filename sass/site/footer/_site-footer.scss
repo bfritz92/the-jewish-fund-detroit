@@ -1,7 +1,7 @@
 /* Site footer */
 
 #colophon {
-
+	background-color:$color__teal;
 	.widget-area,
 	.site-info {
 		margin: calc(2 * #{$size__spacing-unit}) $size__spacing-unit;

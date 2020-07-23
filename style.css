@@ -4296,6 +4296,10 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 ## Footer
 --------------------------------------------------------------*/
 /* Site footer */
+#colophon {
+  background-color: #3A74A6;
+}
+
 #colophon .widget-area,
 #colophon .site-info {
   margin: calc(2 * 1rem) 1rem;
