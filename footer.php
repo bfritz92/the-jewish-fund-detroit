@@ -20,15 +20,14 @@
 		<div class="site-info">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
-				<a class="site-logo" href="" rel="home"><img src="wp-content/uploads/2020/07/jewish-fund-logo-white.svg"></a>
-				<a class="site-name" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a>,
+				<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/uploads/2020/07/jewish-fund-logo-white.svg"></a>
 			<?php endif; ?>
-	
-			<?php
-			if ( function_exists( 'the_privacy_policy_link' ) ) {
-				the_privacy_policy_link( '', '<span role="separator" aria-hidden="true"></span>' );
-			}
-			?>
+			<address>
+			<p class="white">6735 Telegraph Road, </p>
+			<p class="white">Bloomfield Hills, MI 48301</p>
+			<p class="white">phone <a href="tel:+2488332434">(248) 833-2434</a></p>
+			</address>
+			
 			<?php if ( has_nav_menu( 'footer' ) ) : ?>
 				<nav class="footer-navigation" aria-label="<?php esc_attr_e( 'Footer Menu', 'twentynineteen' ); ?>">
 					<?php
