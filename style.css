@@ -4344,6 +4344,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 #colophon .site-info .site-logo {
+  display: block;
   max-width: 130px;
 }
 

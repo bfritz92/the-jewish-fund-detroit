@@ -35,7 +35,9 @@
 		-ms-hyphens: auto;
 		hyphens: auto;
 		word-wrap: break-word;
-		.site-logo{max-width:130px;}
+		.site-logo{
+			display:block;
+			max-width:130px;}
 		a {
 			color: #fff;
 
