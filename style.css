@@ -4343,8 +4343,12 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   word-wrap: break-word;
 }
 
+#colophon .site-info .site-logo {
+  max-width: 130px;
+}
+
 #colophon .site-info a {
-  color: inherit;
+  color: #fff;
 }
 
 #colophon .site-info a:hover {
