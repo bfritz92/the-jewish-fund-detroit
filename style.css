@@ -4350,19 +4350,19 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 920px) {
+@media only screen and (min-width: 700px) {
   #colophon .site-info {
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: 1fr 1fr 3fr;
-        grid-template-columns: 1fr 1fr 3fr;
+    -ms-grid-columns: 150px minmax(165px, 1fr) 3fr;
+        grid-template-columns: 150px minmax(165px, 1fr) 3fr;
     grid-gap: 15px;
   }
 }
 
 #colophon .site-info .site-logo {
   display: block;
-  max-width: 130px;
+  max-width: 150px;
 }
 
 #colophon .site-info a {
@@ -4370,8 +4370,14 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 #colophon .site-info a:hover {
-  text-decoration: none;
-  color: #0056b8;
+  text-decoration: underline;
+  color: #81a4cd;
+}
+
+@media only screen and (max-width: 700px) {
+  #colophon .site-info address {
+    padding: 1rem 0;
+  }
 }
 
 #colophon .site-info .imprint,
