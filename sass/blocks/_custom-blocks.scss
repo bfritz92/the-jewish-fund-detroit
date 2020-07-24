@@ -230,7 +230,7 @@
             &:hover{color:$color__teal;}
         }
     }
-    &.teal, &.blue, &.dark-blue{
+    &.teal, &.blue, &.dark-blue, &.teen-board-teal, &.teen-board-green{
         color:#fff;
         .focus-area--heading:after{background-color:#fff;}
         .focus-area--panel .link{
@@ -246,6 +246,12 @@
     }
     &.dark-blue{
         background-color:$color__dark-blue;
+    }
+    &.teen-board-teal{
+        background-color:$color__teen-board-teal;
+    }
+    &.teen-board-green{
+        background-color:$color__teen-board-green;
     }
     &.full-page{
         min-height:90vh;
@@ -359,6 +365,26 @@
             color:$color__teal;
             &:hover, &:focus{
                 color:$color__dark-blue;
+            }
+        }
+    }
+    &.teen-board-green{
+        color:#fff;
+        background-color:$color__teen-board-green;
+        .arrow-focus--panel .link{
+            color:$color__cloud-blue;
+            &:hover, &:focus{
+                color:#fff;
+            }
+        }
+    }
+    &.teen-board-teal{
+        color:#fff;
+        background-color:$color__teen-board-teal;
+        .arrow-focus--panel .link{
+            color:$color__cloud-blue;
+            &:hover, &:focus{
+                color:#fff;
             }
         }
     }

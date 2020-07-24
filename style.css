@@ -6093,19 +6093,19 @@ body.error404 div#page {
   color: #3A74A6;
 }
 
-.focus-area.teal, .focus-area.blue, .focus-area.dark-blue {
+.focus-area.teal, .focus-area.blue, .focus-area.dark-blue, .focus-area.teen-board-teal, .focus-area.teen-board-green {
   color: #fff;
 }
 
-.focus-area.teal .focus-area--heading:after, .focus-area.blue .focus-area--heading:after, .focus-area.dark-blue .focus-area--heading:after {
+.focus-area.teal .focus-area--heading:after, .focus-area.blue .focus-area--heading:after, .focus-area.dark-blue .focus-area--heading:after, .focus-area.teen-board-teal .focus-area--heading:after, .focus-area.teen-board-green .focus-area--heading:after {
   background-color: #fff;
 }
 
-.focus-area.teal .focus-area--panel .link, .focus-area.blue .focus-area--panel .link, .focus-area.dark-blue .focus-area--panel .link {
+.focus-area.teal .focus-area--panel .link, .focus-area.blue .focus-area--panel .link, .focus-area.dark-blue .focus-area--panel .link, .focus-area.teen-board-teal .focus-area--panel .link, .focus-area.teen-board-green .focus-area--panel .link {
   color: #fff;
 }
 
-.focus-area.teal .focus-area--panel .link:hover, .focus-area.blue .focus-area--panel .link:hover, .focus-area.dark-blue .focus-area--panel .link:hover {
+.focus-area.teal .focus-area--panel .link:hover, .focus-area.blue .focus-area--panel .link:hover, .focus-area.dark-blue .focus-area--panel .link:hover, .focus-area.teen-board-teal .focus-area--panel .link:hover, .focus-area.teen-board-green .focus-area--panel .link:hover {
   color: #dbe4ee;
 }
 
@@ -6119,6 +6119,14 @@ body.error404 div#page {
 
 .focus-area.dark-blue {
   background-color: #264160;
+}
+
+.focus-area.teen-board-teal {
+  background-color: #00586A;
+}
+
+.focus-area.teen-board-green {
+  background-color: #52C2B6;
 }
 
 .focus-area.full-page {
@@ -6322,6 +6330,32 @@ body.error404 div#page {
 
 .arrow-focus.cloud .arrow-focus--panel .link:hover, .arrow-focus.cloud .arrow-focus--panel .link:focus {
   color: #264160;
+}
+
+.arrow-focus.teen-board-green {
+  color: #fff;
+  background-color: #52C2B6;
+}
+
+.arrow-focus.teen-board-green .arrow-focus--panel .link {
+  color: #dbe4ee;
+}
+
+.arrow-focus.teen-board-green .arrow-focus--panel .link:hover, .arrow-focus.teen-board-green .arrow-focus--panel .link:focus {
+  color: #fff;
+}
+
+.arrow-focus.teen-board-teal {
+  color: #fff;
+  background-color: #00586A;
+}
+
+.arrow-focus.teen-board-teal .arrow-focus--panel .link {
+  color: #dbe4ee;
+}
+
+.arrow-focus.teen-board-teal .arrow-focus--panel .link:hover, .arrow-focus.teen-board-teal .arrow-focus--panel .link:focus {
+  color: #fff;
 }
 
 .staff-grid {
