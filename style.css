@@ -74,6 +74,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
   color: #dbe4ee;
 }
 
+.teen-board-green {
+  color: #52C2B6;
+}
+
+.teen-board-teal {
+  color: #00586A;
+}
+
 .orange {
   color: #f17300;
 }
@@ -104,6 +112,14 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 
 .cloud-blue-bg {
   background-color: #dbe4ee;
+}
+
+.teen-board-green-bg {
+  background-color: #52C2B6;
+}
+
+.teen-board-green-teal-bg {
+  background-color: #52C2B6;
 }
 
 /*
