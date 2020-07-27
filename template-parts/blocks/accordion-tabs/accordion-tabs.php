@@ -49,6 +49,7 @@ $fpip = get_field('block_accordion_tabs');
 				$a++;
 
 			?>	
+			<div class="accordion-tab--content">
 			<!--ACF  tab--title -->
 			<?php if ($a == 1) : ?>
 				<li><a data-tabby-default href="#<?php echo $title; ?>" aria-selected="true"><?php the_sub_field('header');?></a></li>
@@ -70,7 +71,7 @@ $fpip = get_field('block_accordion_tabs');
 			$title = get_sub_field('title');
 			$b++;
 		?>
-		<div class="accordion-tab--content">
+		
 			<?php if ($b == 1) : ?>
 					<div id="<?php echo $title; ?>" class="accordion-tabs--item" data-selected="true">
 				<?php else : ?>
