@@ -60,7 +60,7 @@ $fpip = get_field('block_accordion_tabs');
 			endwhile;
 			?>
 		</ul>
-		<div class="accordion-tab--content">
+		
 		<?php
 			$b = 0;
 			while ( have_rows('block_accordion_tabs') ) : the_row();
@@ -72,7 +72,7 @@ $fpip = get_field('block_accordion_tabs');
 			$title = get_sub_field('title');
 			$b++;
 		?>
-		
+		<div class="accordion-tab--content">
 			<?php if ($b == 1) : ?>
 					<div id="<?php echo $title; ?>" class="accordion-tabs--item" data-selected="true">
 				<?php else : ?>
