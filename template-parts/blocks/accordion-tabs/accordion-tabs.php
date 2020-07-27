@@ -49,7 +49,7 @@ $fpip = get_field('block_accordion_tabs');
 				$a++;
 
 			?>	
-			<div class="accordion-tab--content">
+			
 			<!--ACF  tab--title -->
 			<?php if ($a == 1) : ?>
 				<li><a data-tabby-default href="#<?php echo $title; ?>" aria-selected="true"><?php the_sub_field('header');?></a></li>
@@ -60,6 +60,7 @@ $fpip = get_field('block_accordion_tabs');
 			endwhile;
 			?>
 		</ul>
+		<div class="accordion-tab--content">
 		<?php
 			$b = 0;
 			while ( have_rows('block_accordion_tabs') ) : the_row();
