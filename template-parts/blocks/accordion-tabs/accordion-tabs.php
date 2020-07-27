@@ -70,19 +70,21 @@ $fpip = get_field('block_accordion_tabs');
 			$title = get_sub_field('title');
 			$b++;
 		?>
-		<?php if ($b == 1) : ?>
-				<div id="<?php echo $title; ?>" class="accordion-tabs--item" data-selected="true">
-			<?php else : ?>
-				<div id="<?php echo $title; ?>" class="accordion-tabs--item">
-			<?php endif; ?>
-		
-			<h3><?php the_sub_field('header');?></h3>							
-			<!--ACF START tab-copy -->
-			<?php the_sub_field('body');?>	
-			<?php if ($image) : ?>
-				<img src="<?php echo $image; ?>">		
-			<?php endif; ?>	
-			<!--ACF END tab-copy -->
+		<div class="accordion-tab--content">
+			<?php if ($b == 1) : ?>
+					<div id="<?php echo $title; ?>" class="accordion-tabs--item" data-selected="true">
+				<?php else : ?>
+					<div id="<?php echo $title; ?>" class="accordion-tabs--item">
+				<?php endif; ?>
+			
+				<h3><?php the_sub_field('header');?></h3>							
+				<!--ACF START tab-copy -->
+				<?php the_sub_field('body');?>	
+				<?php if ($image) : ?>
+					<img src="<?php echo $image; ?>">		
+				<?php endif; ?>	
+				<!--ACF END tab-copy -->
+			</div>
 		</div>
 	
 <?php endwhile; ?>
