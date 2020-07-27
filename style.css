@@ -2080,7 +2080,7 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   display: none;
 }
 
-.wp-block-group.flex .wp-block-group_inner-container {
+.wp-block-group.flex .wp-block-group__inner-container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
