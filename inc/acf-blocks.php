@@ -79,6 +79,16 @@ function register_acf_block_types() {
       'keywords'          => array( 'accordion', 'tabs' )
    ));	
    acf_register_block_type(array(
+      'name'              => 'sticky-nav',
+      'title'             => __('Sticky Nav'),
+      'description'       => __('A Sticky Nav'),
+      'render_template'   => get_template_directory() . '/template-parts/blocks/sticky-nav/sticky-nav.php',
+      'category'          => 'common',
+      'icon'              => 'portfolio',
+	  'mode'			  => 'edit',
+      'keywords'          => array( 'sticky', 'tabs' )
+   ));	
+   acf_register_block_type(array(
       'name'              => 'single-grant',
       'title'             => __('Single Grant'),
       'description'       => __('A block for single grant entries'),
