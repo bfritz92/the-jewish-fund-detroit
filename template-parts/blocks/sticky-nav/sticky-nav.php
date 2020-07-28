@@ -50,7 +50,7 @@ $fpip = get_field('block_sticky_nav');
 			endwhile;
 			?>
 		</ul>
-		<div class="accordion-tab--content">
+		<div class="sticky-nav--content">
 		<?php
 			$b = 0;
 			while ( have_rows('block_sticky_nav') ) : the_row();
@@ -62,9 +62,9 @@ $fpip = get_field('block_sticky_nav');
 			$b++;
 		?>
 			<?php if ($b == 1) : ?>
-				<div id="<?php echo $link; ?>" class="accordion-tabs--item" data-selected="true">
+				<div id="<?php echo $link; ?>" class="sticky-nav--item" data-selected="true">
 			<?php else : ?>
-				<div id="<?php echo $link; ?>" class="accordion-tabs--item">
+				<div id="<?php echo $link; ?>" class="sticky-nav--item">
 			<?php endif; ?>
 			<?php if ($header) : ?>
 			    <h3><?php echo $header; ?></h3>						
