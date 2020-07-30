@@ -7072,10 +7072,14 @@ section.one-three {
   }
   .sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
     background-color: #52C2B6;
+  }
+  .sticky-nav--nav li:hover a, .sticky-nav--nav li:focus a, .sticky-nav--nav li:active a {
     color: #fff;
   }
   .sticky-nav--nav li a {
     width: 100%;
+    color: #52C2B6;
+    padding: 10px 15px 10px 15px;
   }
 }
 

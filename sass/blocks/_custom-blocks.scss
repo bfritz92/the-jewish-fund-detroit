@@ -848,10 +848,16 @@ section.one-three{
                 transition:(background-color, .5s, ease-in-out);
                 &:hover, &:focus, &:active{
                     background-color:$color__teen-board-green;
+                }
+                &:hover a, &:focus a, &:active a{
                     color:#fff;
                 }
-                a {width:100%;}
+                a {
+                    width:100%;
+                    color:$color__teen-board-green;
+                    padding:10px 15px 10px 15px;
+                }
             }
-        }
+        }   
     }
 }
