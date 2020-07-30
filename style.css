@@ -7063,13 +7063,14 @@ section.one-three {
     position: sticky;
     top: 80px;
     height: 100%;
+    padding-left: 10px;
   }
   .sticky-nav--nav li {
     width: 100%;
     color: #00586A;
     -webkit-transition: background-color, 0.5s, ease-in-out;
     transition: background-color, 0.5s, ease-in-out;
-    margin: 10px 15px 10px 15px;
+    padding: 10px 15px 10px 15px;
   }
   .sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
     background-color: #52C2B6;

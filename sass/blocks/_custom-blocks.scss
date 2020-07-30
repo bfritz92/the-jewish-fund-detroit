@@ -842,11 +842,12 @@ section.one-three{
             position:sticky;
             top:80px;
             height:100%;
+            padding-left:10px;
             li{
                 width:100%;
                 color:$color__teen-board-teal;
                 transition:(background-color, .5s, ease-in-out);
-                margin:10px 15px 10px 15px;
+                padding:10px 15px 10px 15px;
                 &:hover, &:focus, &:active{
                     background-color:$color__teen-board-green;
                 }
