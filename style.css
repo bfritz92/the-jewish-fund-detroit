@@ -7063,7 +7063,7 @@ section.one-three {
     position: sticky;
     top: 80px;
     height: 100%;
-    padding-left: 10px;
+    padding-right: 10px;
   }
   .sticky-nav--nav li {
     width: 100%;
