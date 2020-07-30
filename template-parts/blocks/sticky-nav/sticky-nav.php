@@ -41,7 +41,7 @@ $fpip = get_field('block_sticky_nav');
 			?>	
 			<!--ACF tab--title -->
 			<?php if ($a == 1) : ?>
-				<li><a data-tabby-default href="#<?php echo $link; ?>" aria-selected="true"><?php the_sub_field('title');?></a></li>
+				<li><a href="#<?php echo $link; ?>" aria-selected="true"><?php the_sub_field('title');?></a></li>
 			<?php else : ?>
 				<li><a href="#<?php echo $link; ?>"><?php the_sub_field('title');?></a></li>
 			<?php endif; ?>
