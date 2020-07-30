@@ -835,11 +835,13 @@ section.one-three{
     &--nav{
         width:100%;
         text-align:center;
+        list-style:none;
         @media only screen and (min-width:$tablet){
             text-align:left;
             max-width:250px;
             position:sticky;
             top:75px;
+            height:100%;
             li{
                 width:100%;
                 color:$color__teen-board-teal;
