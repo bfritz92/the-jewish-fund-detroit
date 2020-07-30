@@ -7061,7 +7061,7 @@ section.one-three {
     min-width: 250px;
     position: -webkit-sticky;
     position: sticky;
-    top: 75px;
+    top: 80px;
     height: 100%;
   }
   .sticky-nav--nav li {
@@ -7069,6 +7069,7 @@ section.one-three {
     color: #00586A;
     -webkit-transition: background-color, 0.5s, ease-in-out;
     transition: background-color, 0.5s, ease-in-out;
+    margin: 10px 15px 10px 15px;
   }
   .sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
     background-color: #52C2B6;
@@ -7079,7 +7080,6 @@ section.one-three {
   .sticky-nav--nav li a {
     width: 100%;
     color: #52C2B6;
-    padding: 10px 15px 10px 15px;
   }
 }
 

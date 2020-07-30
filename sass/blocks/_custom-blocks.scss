@@ -840,12 +840,13 @@ section.one-three{
             text-align:left;
             min-width:250px;
             position:sticky;
-            top:75px;
+            top:80px;
             height:100%;
             li{
                 width:100%;
                 color:$color__teen-board-teal;
                 transition:(background-color, .5s, ease-in-out);
+                margin:10px 15px 10px 15px;
                 &:hover, &:focus, &:active{
                     background-color:$color__teen-board-green;
                 }
@@ -855,7 +856,7 @@ section.one-three{
                 a {
                     width:100%;
                     color:$color__teen-board-green;
-                    padding:10px 15px 10px 15px;
+                    
                 }
             }
         }   
