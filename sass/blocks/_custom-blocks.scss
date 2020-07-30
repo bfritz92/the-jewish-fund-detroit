@@ -862,4 +862,11 @@ section.one-three{
             }
         }   
     }
+    &--item{
+
+        h2, h3, h4, h5, h6, a{
+            color:$color__teen-board-teal;
+        }
+        a:hover{color:$color__teen-board-green;}
+    }
 }

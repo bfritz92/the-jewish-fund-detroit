@@ -7084,6 +7084,14 @@ section.one-three {
   }
 }
 
+.sticky-nav--item h2, .sticky-nav--item h3, .sticky-nav--item h4, .sticky-nav--item h5, .sticky-nav--item h6, .sticky-nav--item a {
+  color: #00586A;
+}
+
+.sticky-nav--item a:hover {
+  color: #52C2B6;
+}
+
 /* Media */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
