@@ -8,12 +8,12 @@
  * @param   (int|string) $post_id The post ID this block is saved to.
  */
 // Create id attribute allowing for custom "anchor" value.
-$id = 'accordion-tabs-' . $block['id'];
+$id = 'sticky-nav' . $block['id'];
 if( !empty($block['anchor']) ) {
    $id = $block['anchor'];
 }
 // Create class attribute allowing for custom "className" and "align" values.
-$className = 'accordion-tabs';
+$className = 'sticky-nav';
 if( !empty($block['className']) ) {
    $className .= ' ' . $block['className'];
 }
@@ -29,8 +29,7 @@ $fpip = get_field('block_sticky_nav');
 	if( have_rows('block_sticky_nav') ):		
 		 // loop through the rows of data
 ?>
-	<h1 class="limit-1200 sticky-nav--headline blue mt1 mb1 <?php echo $className ?>"><?php the_field('accordion_header',$post_id); ?></h1>
-	<section class="sticky-nav limit-1200 fade <?php echo $className ?>">		
+	<section class="sticky-nav limit-900 fade <?php echo $className ?>">		
 		<ul data-tabs class="sticky-nav--nav">
 			<?php
 				$a = 0;
