@@ -7058,7 +7058,7 @@ section.one-three {
 @media only screen and (min-width: 700px) {
   .sticky-nav--nav {
     text-align: left;
-    max-width: 250px;
+    min-width: 250px;
     position: -webkit-sticky;
     position: sticky;
     top: 75px;
