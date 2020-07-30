@@ -848,10 +848,10 @@ section.one-three{
                 color:$color__teen-board-teal;
                 transition:(background-color, .5s, ease-in-out);
                 padding:10px 15px 10px 15px;
-                &:hover, &:focus, &:active{
+                &:hover, &:focus, &:active, &.active{
                     background-color:$color__teen-board-green;
                 }
-                &:hover a, &:focus a, &:active a{
+                &:hover a, &:focus a, &:active a, &.active a{
                     color:#fff;
                 }
                 a {
