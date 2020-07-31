@@ -3764,6 +3764,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  padding-top: 1rem;
 }
 
 .site-header.featured-image .site-featured-image .post-thumbnail img {
