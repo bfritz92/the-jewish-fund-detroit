@@ -13,12 +13,12 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
-	<header class="entry-header show">
+	<header class="entry-header show limit-900">
 		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
 	</header>
 	<?php endif; ?>
 
-	<div class="entry-content limit-1200">
+	<div class="entry-content limit-900">
 		<?php the_title( '<h1 class="entry-title pt2 dark-blue">', '</h1>' ); ?>
 		<?php
 		the_content(
