@@ -31,8 +31,8 @@ get_header(); ?>
 			if( $main_posts->have_posts() ):
 				while( $main_posts->have_posts() ) : $main_posts->the_post(); ?>
 					<article class="press-release--item">
-						<a href="<?php the_permalink(); ?>" ><h3 class="dark-blue"><?php the_title(); ?></h3></a>
-						<p class="mt1"><?php the_excerpt(); ?></p>
+						<a class="press-release--title" href="<?php the_permalink(); ?>" ><h3 class="dark-blue"><?php the_title(); ?></h3></a>
+						<p class="press-release--excerpt mt1"><?php the_content(); ?></p>
 					</article>
 				<?php endwhile; ?>			
 			<?php endif;  ?>
