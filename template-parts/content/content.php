@@ -27,7 +27,7 @@
 
 	<?php // twentynineteen_post_thumbnail(); ?>
 
-	<div class="entry-content">
+	<div class="entry-content limit-900">
 		<?php
 		the_content(
 			sprintf(
