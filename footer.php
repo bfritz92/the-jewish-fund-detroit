@@ -79,8 +79,8 @@
 
 <script>
 	let mainNavLinks = document.querySelectorAll("ul.sticky-nav--nav li a");
-let mainSections = document.querySelectorAll(".sticky-nav--item");
-console.log("got the vars");
+	let mainSections = document.querySelectorAll(".sticky-nav--item");
+	console.log("got the vars");
 let lastId;
 let cur = [];
 
