@@ -3922,6 +3922,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 .entry .entry-title {
+  padding: 0;
   margin: 0;
 }
 
