@@ -65,12 +65,12 @@
 	/* Entry header */
 	.site-featured-image {
 
-		/* First layer: grayscale. */
 		.post-thumbnail {
-			max-height:500px;
+			max-height:600px;
 			display:flex;
 			img {
-			max-width: 1220px;
+			max-width: 920px;
+			max-height:600px;
 			margin:auto;
 			width:100%;
 			object-fit:cover;

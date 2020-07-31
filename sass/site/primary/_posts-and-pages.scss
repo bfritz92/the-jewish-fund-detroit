@@ -42,6 +42,7 @@
 		@media only screen and (min-width:$tablet){
 			//margin: 60px auto 0 auto;
 		}
+		.show{display:block;}
 	}
 
 	.entry-title {
@@ -301,7 +302,6 @@
 
 
   .page.type-page .entry-header .entry-title {
-	//font-family: baskerville;
 	font-weight: 700;
 	color: #004b7a;
 	font-size: 45px;
