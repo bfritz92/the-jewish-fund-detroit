@@ -12,7 +12,7 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<header class="entry-header show limit-900 dark-blue pt1">
+	<header class="entry-header show limit-900 pt1 dark-blue ">
 		<?php
 		if ( is_sticky() && is_home() && ! is_paged() ) {
 			printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post', 'twentynineteen' ) );
