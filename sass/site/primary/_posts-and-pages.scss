@@ -42,9 +42,8 @@
 		@media only screen and (min-width:$tablet){
 			//margin: 60px auto 0 auto;
 		}
-		&.show{display:block;}
 	}
-	.entry-header.show{display:block;}
+	.entry-header.show{display:block!important;}
 	.entry-title {
 
 		

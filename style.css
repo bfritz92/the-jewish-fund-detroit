@@ -3917,11 +3917,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 .entry .entry-header.show {
-  display: block;
-}
-
-.entry .entry-header.show {
-  display: block;
+  display: block !important;
 }
 
 .entry .entry-title {
