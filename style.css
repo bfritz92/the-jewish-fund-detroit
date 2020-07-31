@@ -3920,6 +3920,10 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   display: block;
 }
 
+.entry .entry-header.show {
+  display: block;
+}
+
 .entry .entry-title {
   margin: 0;
 }
