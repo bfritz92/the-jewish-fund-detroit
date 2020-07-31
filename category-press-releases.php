@@ -1,15 +1,10 @@
 <?php
 /**
- * Template for Press Releases
- *
- * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
- *
- * @package WordPress
- * @subpackage Twenty_Nineteen
- * @since 1.0.0
+ * Template Name: Press Release Category Page
+ * Template Post Type: Press Release
  */
 
-?>
+get_header(); ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
@@ -42,11 +37,11 @@
 				<?php endwhile; ?>			
 			<?php endif;  ?>
 		<?php wp_reset_query();?>	
+			</div>
 
 		<?php // if ( ! is_singular( 'attachment' ) ) : ?>
 		<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
 	<?php // endif; ?>
-	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
