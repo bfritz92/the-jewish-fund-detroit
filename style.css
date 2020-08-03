@@ -3904,19 +3904,6 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   margin: 0 0 calc(1.5 * 1rem);
 }
 
-.content-area .site-main article.category-press-releases header.entry-title {
-  display: block;
-  max-width: 920px;
-  padding: 0 10px;
-  margin: auto;
-}
-
-.content-area .site-main article.category-press-releases .entry-content {
-  max-width: 920px;
-  padding: 0 10px;
-  margin: auto;
-}
-
 .entry {
   margin-top: 0 15px;
 }
@@ -4142,6 +4129,19 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   .entry .entry-content .wp-audio-shortcode {
     max-width: calc(6 * (100vw / 12) - 28px);
   }
+}
+
+.content-area .site-main article.category-press-releases header.entry-title {
+  display: block;
+  max-width: 920px;
+  padding: 0 10px;
+  margin: auto;
+}
+
+.content-area .site-main article.category-press-releases .entry-content {
+  max-width: 920px;
+  padding: 0 10px;
+  margin: auto;
 }
 
 /* Author description */

@@ -23,10 +23,6 @@
 	clear: both;
 	margin: 0 0 calc(1.5 * #{$size__spacing-unit});
 }
-.content-area .site-main article.category-press-releases{
-			header.entry-title{display:block; @include limit-900;}
-			.entry-content{@include limit-900;}
-		}
 
 .entry {
 
@@ -261,6 +257,10 @@
 			}
 		}
 	}
+}
+.content-area .site-main article.category-press-releases{
+	header.entry-title{display:block; @include limit-900;}
+	.entry-content{@include limit-900;}
 }
 
 /* Author description */
