@@ -25,6 +25,12 @@
 }
 .content-area{
 	//margin-top:60px;
+	.site-main{
+		article.category-press-releases{
+			.entry-title{display:block; @include limit-900;}
+			.entry-content{@include limit-900;}
+		}
+	}
 }
 .entry {
 
