@@ -23,15 +23,11 @@
 	clear: both;
 	margin: 0 0 calc(1.5 * #{$size__spacing-unit});
 }
-.content-area{
-	//margin-top:60px;
-	.site-main{
-		article.category-press-releases{
+.content-area .site-main article.category-press-releases{
 			header.entry-title{display:block; @include limit-900;}
 			.entry-content{@include limit-900;}
 		}
-	}
-}
+
 .entry {
 
 	margin-top: 0 15px;
