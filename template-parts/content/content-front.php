@@ -1,6 +1,6 @@
 <?php
 /**
- * Template part for displaying posts
+ * Template part for front page
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/
  *
@@ -12,14 +12,23 @@
 ?>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
-	<header class="entry-header show limit-900">
-		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-	</header>
-	<?php endif; ?>
+<!-- changes here!! -->
+	<header class="entry-header pt1 dark-blue">
+		<?php
+		if ( is_sticky() && is_home() && ! is_paged() ) {
+			printf( '<span class="sticky-post">%s</span>', _x( 'Featured', 'post', 'twentynineteen' ) );
+		}
+		if ( is_singular() ) :
+			the_title( '<h1 class="entry-title pt2">', '</h1>' );
+		else :
+			the_title( sprintf( '<h2 class="entry-title pt2"><a href="%s" rel="bookmark">', esc_url( get_permalink() ) ), '</a></h2>' );
+		endif;
+		?>
+	</header><!-- .entry-header -->
 
-	<div class="entry-content limit-900">
-		<?php the_title( '<h1 class="entry-title pt2 dark-blue">', '</h1>' ); ?>
+	<?php // twentynineteen_post_thumbnail(); ?>
+
+	<div class="entry-content">
 		<?php
 		the_content(
 			sprintf(
@@ -32,7 +41,6 @@
 						),
 					)
 				),
-				
 				get_the_title()
 			)
 		);
@@ -44,15 +52,9 @@
 			)
 		);
 		?>
-		<?php // if ( ! is_singular( 'attachment' ) ) : ?>
-		<?php get_template_part( 'template-parts/post/author', 'bio' ); ?>
-	<?php // endif; ?>
 	</div><!-- .entry-content -->
 
 	<footer class="entry-footer">
 		<?php twentynineteen_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
-
-	
-
 </article><!-- #post-<?php the_ID(); ?> -->
