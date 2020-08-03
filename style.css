@@ -4132,7 +4132,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 #main.site-main article.category-press-releases header.entry-title {
-  display: block;
+  display: block !important;
   max-width: 920px;
   padding: 0 10px;
   margin: auto;
