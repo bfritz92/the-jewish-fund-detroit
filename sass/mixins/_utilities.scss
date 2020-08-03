@@ -57,7 +57,11 @@ $widescreen: 2000px;
 		@content;
 	}
 }
-
+@mixin limit-900{
+	max-width:920px;
+	padding:0 10px;
+	margin:auto;
+}
 /** === Layout === */
 
 #page {
