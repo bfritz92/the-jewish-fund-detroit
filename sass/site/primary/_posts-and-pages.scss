@@ -258,7 +258,7 @@
 		}
 	}
 }
-.content-area .site-main article.category-press-releases{
+#main.site-main article.category-press-releases{
 	header.entry-title{display:block; @include limit-900;}
 	.entry-content{@include limit-900;}
 }

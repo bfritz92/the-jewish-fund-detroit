@@ -4131,14 +4131,14 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   }
 }
 
-.content-area .site-main article.category-press-releases header.entry-title {
+#main.site-main article.category-press-releases header.entry-title {
   display: block;
   max-width: 920px;
   padding: 0 10px;
   margin: auto;
 }
 
-.content-area .site-main article.category-press-releases .entry-content {
+#main.site-main article.category-press-releases .entry-content {
   max-width: 920px;
   padding: 0 10px;
   margin: auto;
