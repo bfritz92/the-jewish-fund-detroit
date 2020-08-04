@@ -32,7 +32,7 @@ get_header(); ?>
 				while( $main_posts->have_posts() ) : $main_posts->the_post(); ?>
 					<article class="press-release--item">
 						<a class="press-release--title" href="<?php the_permalink(); ?>" ><h3 class="dark-blue"><?php the_title(); ?></h3></a>
-						<p class="press-release--excerpt mt1"><?php the_content(); ?></p>
+						<p class="press-release--excerpt mt1"><?php the_excerpt(); ?></p>
 					</article>
 				<?php endwhile; ?>			
 			<?php endif;  ?>
