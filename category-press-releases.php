@@ -18,7 +18,7 @@ get_header(); ?>
 		
 		<?php
 			$args = array(
-				'category_name'  	=> 'Press Release', 
+				'category_name'  	=> 'press-releases', 
 				'orderby'			=> 'post_date',
 				'order'				=> 'ASC',
 				/*
