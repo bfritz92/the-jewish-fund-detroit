@@ -19,7 +19,7 @@ get_header(); ?>
 			$args = array(
 				'category_name'  	=> 'press-releases', 
 				'orderby'			=> 'post_date',
-				'order'				=> 'ASC',
+				'order'				=> 'DESC',
 				/*
 				'order'			=> 'ASC',
 				'orderby'		=> 'episode_number',*/									
