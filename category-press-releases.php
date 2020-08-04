@@ -14,7 +14,6 @@ get_header(); ?>
 	<?php endif; ?>
 
 	<div class="entry-content limit-900">
-		<?php the_title( '<h1 class="entry-title pt2 dark-blue">', '</h1>' ); ?>
 		
 		<?php
 			$args = array(
