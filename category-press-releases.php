@@ -5,12 +5,14 @@
  */
 
 get_header(); ?>
-
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<?php if ( ! twentynineteen_can_show_post_thumbnail() ) : ?>
 	<header class="entry-header show limit-900">
-		<?php get_template_part( 'template-parts/header/entry', 'header' ); ?>
-	</header>
+		<?php
+			single_cat_title( '<h1 class="entry-title">', '</h1>' );
+		?>
+	</header><!-- .page-header -->
+	
 	<?php endif; ?>
 
 	<div class="entry-content limit-900">
