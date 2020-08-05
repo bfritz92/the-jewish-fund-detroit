@@ -4354,6 +4354,10 @@ body.error404 div#page {
 /* Site footer */
 #colophon {
   background-color: #3A74A6;
+  position: fixed;
+  width: 100%;
+  top: auto;
+  bottom: 0;
 }
 
 #colophon .widget-area,
