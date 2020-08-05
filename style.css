@@ -3918,7 +3918,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 }
 
 .entry .entry-header.show {
-  display: block !important;
+  display: block;
 }
 
 .entry .entry-title {
