@@ -2,10 +2,9 @@
 
 #colophon {
 	background-color:$color__teal;
-	position: fixed;
+	
 	width: 100%;
-	top: auto;
-	bottom: 0;
+	
 	.widget-area,
 	.site-info {
 		margin: calc(2 * #{$size__spacing-unit}) $size__spacing-unit;
