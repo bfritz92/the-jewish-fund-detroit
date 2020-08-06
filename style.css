@@ -3048,7 +3048,7 @@ a[href$=".ppt"]:after {
   position: sticky;
   top: 0;
   background-color: #fff;
-  z-index: 3;
+  z-index: 4;
 }
 
 .site-header.featured-image {
