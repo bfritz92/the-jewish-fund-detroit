@@ -3660,6 +3660,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
 
 .site-content {
   /*overflow: hidden;*/
+  min-height: calc(100vh-280px);
 }
 
 /* Content */
