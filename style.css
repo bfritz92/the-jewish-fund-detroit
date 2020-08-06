@@ -4145,6 +4145,10 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   margin: auto;
 }
 
+#main.site-main article.category-annual-report header.entry-title {
+  display: none;
+}
+
 /* Author description */
 /*.author-bio {
 	margin: calc(2 * 1rem) $size__spacing-unit $size__spacing-unit;

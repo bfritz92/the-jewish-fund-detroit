@@ -262,6 +262,9 @@
 	header.entry-title{display:block!important; @include limit-900;}
 	.entry-content{@include limit-900;}
 }
+#main.site-main article.category-annual-report{
+	header.entry-title{display:none;}
+}
 
 /* Author description */
 
