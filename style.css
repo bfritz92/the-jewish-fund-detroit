@@ -4145,7 +4145,7 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
   margin: auto;
 }
 
-#main.site-main article.category-annual-report header.entry-title {
+#main.site-main article.category-annual-report header.show.entry-title {
   display: none;
 }
 
