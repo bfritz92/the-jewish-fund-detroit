@@ -104,7 +104,7 @@ window.addEventListener("scroll", event => {
 
 <!-- Fade-in script -->
 <script>
-const header = document.querySelector("header");
+const header = document.querySelector("masthead");
 const sectionOne = document.querySelector(".home-intro");
 
 const faders = document.querySelectorAll(".fade-in");
