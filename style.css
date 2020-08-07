@@ -3028,6 +3028,14 @@ link.blue:hover {
   color: #264160;
 }
 
+.gray-link,
+.white-link,
+.blue-link,
+.link {
+  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in;
+}
+
 .gray-link.right:after,
 .white-link.right:after,
 .blue-link.right:after,
@@ -3037,10 +3045,10 @@ link.blue:hover {
   font-weight: 900;
   padding-left: 10px;
   text-decoration: none;
-  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
-  transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
-  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in;
-  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
+  -webkit-transition: color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in, color 250ms ease-in;
+  transition: transform 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 .gray-link.left:before,
@@ -3051,10 +3059,10 @@ link.blue:hover {
   content: "\f100";
   font-weight: 900;
   padding-right: 10px;
-  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
-  transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
-  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in;
-  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
+  -webkit-transition: color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in, color 250ms ease-in;
+  transition: transform 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 a[href$=".pdf"]:after {
