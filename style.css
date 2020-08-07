@@ -3028,10 +3028,10 @@ link.blue:hover {
   color: #264160;
 }
 
-.gray-link,
-.white-link,
-.blue-link,
-.link {
+.gray-link.right,
+.white-link.right,
+.blue-link.right,
+.link.right {
   -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
   transition: background-color 250ms ease-in, color 250ms ease-in;
 }
@@ -3049,6 +3049,14 @@ link.blue:hover {
   transition: color 250ms ease-in, -webkit-transform 250ms ease-in;
   transition: transform 250ms ease-in, color 250ms ease-in;
   transition: transform 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
+}
+
+.gray-link.left,
+.white-link.left,
+.blue-link.left,
+.link.left {
+  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in;
 }
 
 .gray-link.left:before,
