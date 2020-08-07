@@ -114,6 +114,7 @@ const appearOnScroll = new IntersectionObserver
 		entries, 
 		appearOnScroll
 ) {
+	// forcing changes
 	entries.forEach(entry => {
 		if (!entry.inIntersecting){
 			return;
@@ -123,6 +124,7 @@ const appearOnScroll = new IntersectionObserver
 		}
 	});
 }, 
+// forcing changes
 appearOptions);
 
 faders.forEach(fader => {
