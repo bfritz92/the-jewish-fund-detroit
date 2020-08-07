@@ -3000,31 +3000,50 @@ a:focus {
   text-decoration: underline;
 }
 
-.gray-link, link.gray {
+.gray-link,
+link.gray {
   color: #767676;
 }
 
-.gray-link:hover, link.gray:hover {
+.gray-link:hover,
+link.gray:hover {
   color: #2d2d2d;
 }
 
-.white-link, link.white {
+.white-link,
+link.white {
   color: #fff;
 }
 
-.white-link:hover, link.white:hover {
+.white-link:hover,
+link.white:hover {
   color: #dbe4ee;
 }
 
-.blue-link, link.blue {
+.blue-link,
+link.blue {
   color: #0056b8;
 }
 
-.blue-link:hover, link.blue:hover {
+.blue-link:hover,
+link.blue:hover {
   color: #264160;
 }
 
-.gray-link.right:after, .white-link.right:after, .blue-link.right:after, .link.right:after {
+.gray-link.right,
+.white-link.right,
+.blue-link.right,
+.link.right {
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.gray-link.right:after,
+.white-link.right:after,
+.blue-link.right:after,
+.link.right:after {
   font-family: "Font Awesome 5 Pro";
   content: "\f101";
   font-weight: 900;
@@ -3032,7 +3051,20 @@ a:focus {
   text-decoration: none;
 }
 
-.gray-link.left:before, .white-link.left:before, .blue-link.left:before, .link.left:before {
+.gray-link.left,
+.white-link.left,
+.blue-link.left,
+.link.left {
+  -webkit-transition: -webkit-transform 250ms ease-in-out;
+  transition: -webkit-transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out;
+  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+}
+
+.gray-link.left:before,
+.white-link.left:before,
+.blue-link.left:before,
+.link.left:before {
   font-family: "Font Awesome 5 Pro";
   content: "\f100";
   font-weight: 900;
@@ -3063,12 +3095,16 @@ a[href$=".ppt"]:after {
   padding-left: 10px;
 }
 
-.white-link.right:hover:after, .gray-link.right:hover:after, .blue-link.right:hover:after {
+.white-link.right:hover:after,
+.gray-link.right:hover:after,
+.blue-link.right:hover:after {
   -webkit-transform: translateX(5px);
           transform: translateX(5px);
 }
 
-.white-link.left:hover:before, .gray-link.left:hover:before, .blue-link.left:hover:before {
+.white-link.left:hover:before,
+.gray-link.left:hover:before,
+.blue-link.left:hover:before {
   -webkit-transform: translateX(-5px);
           transform: translateX(-5px);
 }
