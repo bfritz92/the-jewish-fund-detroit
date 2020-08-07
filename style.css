@@ -4238,7 +4238,7 @@ link.blue:hover {
 .white-link.left,
 .blue-link.left,
 .link.left {
-  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in;
+  -webkit-transition: transition 250ms ease-in, color 250ms ease-in;
   transition: transition 250ms ease-in, color 250ms ease-in;
 }
 
