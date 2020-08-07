@@ -2747,8 +2747,6 @@ body {
 }
 
 a {
-  -webkit-transition: color 110ms ease-in-out;
-  transition: color 110ms ease-in-out;
   /* color: $color__link; */
 }
 
