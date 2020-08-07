@@ -5919,10 +5919,6 @@ body.error404 div#page {
       -ms-flex-align: center;
           align-items: center;
   text-align: center;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 @media only screen and (min-width: 700px) {
@@ -5949,10 +5945,6 @@ body.error404 div#page {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 @media only screen and (min-width: 700px) {

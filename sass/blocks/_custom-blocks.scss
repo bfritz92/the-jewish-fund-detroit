@@ -107,7 +107,7 @@
         display: flex;
         align-items: center;
         text-align: center;
-        transition: transform 250ms ease-in-out;
+
         @media only screen and (min-width: $tablet) {
           text-align: left;
         }
@@ -124,7 +124,7 @@
         align-items: center;
         justify-content: center;
         text-align: center;
-        transition: transform 250ms ease-in-out;
+
         @media only screen and (min-width: $tablet) {
           text-align: right;
         }
