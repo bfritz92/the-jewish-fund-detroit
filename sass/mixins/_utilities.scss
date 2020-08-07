@@ -88,12 +88,28 @@ $widescreen: 2000px;
 .center {
   text-align: center;
 }
+// FADE-INS
 .fade-in {
   opacity: 0;
   transition: opacity 250ms ease-in;
 }
 .fade-in.appear {
   opacity: 1;
+}
+.arrow-focus--img.fade-in.fade-right {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 250ms ease-in, translate 250ms ease-in;
+}
+.arrow-focus--img.fade-in.fade-left {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 250ms ease-in, translate 250ms ease-in;
+}
+.arrow-focus--img.fade-in.fade-right.appear,
+.arrow-focus--img.fade-in.fade-left.appear {
+  opacity: 1;
+  transform: translateX(0);
 }
 //--------------------------------------------------------------
 // Typography Setup
