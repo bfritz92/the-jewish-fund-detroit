@@ -99,12 +99,12 @@ $widescreen: 2000px;
 .arrow-focus--img.fade-in.fade-right {
   opacity: 0;
   transform: translateX(-100%);
-  transition: opacity 250ms ease-in, translate 250ms ease-in;
+  transition: opacity 250ms ease-in, translate 500ms ease-in;
 }
 .arrow-focus--img.fade-in.fade-left {
   opacity: 0;
   transform: translateX(100%);
-  transition: opacity 250ms ease-in, translate 250ms ease-in;
+  transition: opacity 250ms ease-in, translate 500ms ease-in;
 }
 .arrow-focus--img.fade-in.fade-right.appear,
 .arrow-focus--img.fade-in.fade-left.appear {
