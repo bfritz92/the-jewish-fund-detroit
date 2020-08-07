@@ -51,7 +51,7 @@ $fpip = get_field('block_front_page_intro_panel');
 				<figure class="front-page-intro--img-<?php echo $a++ ?>">
 				</figure>		
 				<figure class="front-page-intro--panel-<?php echo $b++ ?>">
-				<div class="front-page-intro--panel-<?php echo $c++ ?>--text fade fade-in">
+				<div class="front-page-intro--panel-<?php echo $c++ ?>--text">
 					<p class="mb0 bold subhead"><?php the_sub_field('subhead');?></p>
 					<h1 class="m0 book heading"><?php the_sub_field('heading');?></h1>
 					<p class="mt0 copy"><?php the_sub_field('copy');?></p>
@@ -60,12 +60,12 @@ $fpip = get_field('block_front_page_intro_panel');
 			</figure>
 			</section>
 		<?php else : ?>
-			<section class="<?php the_sub_field('section_css');?>" id="<?php the_sub_field('panel_id');?>" fade fade-in">
+			<section class="<?php the_sub_field('section_css');?>" id="<?php the_sub_field('panel_id');?>" ">
 			<img src="<?php echo $intro_img_url?>" class="<?php the_sub_field('image_css');?>">
 			<?php if ( get_sub_field('panel_css')) :  ?>
-				<div class="<?php the_sub_field('panel_css');?> fade fade-in">
+				<div class="<?php the_sub_field('panel_css');?> ">
 			<?php else : ?>		
-				<div class="feature-panel--copy fade fade-in">
+				<div class="feature-panel--copy">
 			<?php endif; ?>			
 			<h2 class=" <?php the_sub_field('heading_css');?>"><?php the_sub_field('heading');?></h2>
 			<h3 class=" <?php the_sub_field('subhead_css');?>"><?php the_sub_field('subhead');?></h3>
