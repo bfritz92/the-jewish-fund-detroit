@@ -106,7 +106,7 @@ window.addEventListener("scroll", event => {
 <script>
 const faders = document.querySelectorAll(`.fade-in`);
 const appearOptions = {
-	threshold: .4,
+	threshold: 1,
 	rootMargin: "0px 0px -200px 0px"
 };
 const appearOnScroll = new IntersectionObserver
