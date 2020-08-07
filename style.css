@@ -1885,16 +1885,16 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   opacity: 0;
   -webkit-transform: translateX(-100%);
           transform: translateX(-100%);
-  -webkit-transition: opacity 250ms ease-in, translate 500ms ease-in;
-  transition: opacity 250ms ease-in, translate 500ms ease-in;
+  -webkit-transition: opacity 500ms ease-in, translate 500ms ease-in;
+  transition: opacity 500ms ease-in, translate 500ms ease-in;
 }
 
 .arrow-focus--img.fade-in.fade-left {
   opacity: 0;
   -webkit-transform: translateX(100%);
           transform: translateX(100%);
-  -webkit-transition: opacity 250ms ease-in, translate 500ms ease-in;
-  transition: opacity 250ms ease-in, translate 500ms ease-in;
+  -webkit-transition: opacity 500ms ease-in, translate 500ms ease-in;
+  transition: opacity 500ms ease-in, translate 500ms ease-in;
 }
 
 .arrow-focus--img.fade-in.fade-right.appear,
