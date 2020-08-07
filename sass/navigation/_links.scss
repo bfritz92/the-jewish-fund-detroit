@@ -47,8 +47,9 @@ link.blue {
 .white-link,
 .blue-link,
 .link {
+  transition: transform 250ms ease-in, background-color 250ms ease-in,
+    color 250ms ease-in;
   &.right {
-    transition: transform 250ms ease-in-out;
     &:after {
       font-family: "Font Awesome 5 Pro";
       content: "\f101";
@@ -58,7 +59,6 @@ link.blue {
     }
   }
   &.left {
-    transition: transform 250ms ease-in-out;
     &:before {
       font-family: "Font Awesome 5 Pro";
       content: "\f100";

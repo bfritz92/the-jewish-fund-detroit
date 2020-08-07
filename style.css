@@ -3030,14 +3030,14 @@ link.blue:hover {
   color: #264160;
 }
 
-.gray-link.right,
-.white-link.right,
-.blue-link.right,
-.link.right {
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
+.gray-link,
+.white-link,
+.blue-link,
+.link {
+  -webkit-transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
+  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in;
+  transition: transform 250ms ease-in, background-color 250ms ease-in, color 250ms ease-in, -webkit-transform 250ms ease-in;
 }
 
 .gray-link.right:after,
@@ -3049,16 +3049,6 @@ link.blue:hover {
   font-weight: 900;
   padding-left: 10px;
   text-decoration: none;
-}
-
-.gray-link.left,
-.white-link.left,
-.blue-link.left,
-.link.left {
-  -webkit-transition: -webkit-transform 250ms ease-in-out;
-  transition: -webkit-transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out;
-  transition: transform 250ms ease-in-out, -webkit-transform 250ms ease-in-out;
 }
 
 .gray-link.left:before,
