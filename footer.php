@@ -47,7 +47,8 @@
 </div><!-- #page -->
 
 <?php wp_footer(); ?>
-        
+
+<!-- Menu subnavs -->       
 <script >
 	//menu functions
 	//grabbing constants
@@ -73,6 +74,7 @@
 
 </script>
 
+<!-- Sticky Nav -->
 <script>
 	let mainNavLinks = document.querySelectorAll("ul.sticky-nav--nav li a");
 	let mainSections = document.querySelectorAll(".sticky-nav--item");
@@ -100,5 +102,33 @@ window.addEventListener("scroll", event => {
 });
 </script>
 
+<!-- Fade-in script -->
+<script>
+const faders = document.querySelectorAll(`.fade-in`);
+const appearOptions = {
+	threshold: .4,
+	rootMargin: "0px 0px -200px 0px"
+};
+const appearOnScroll = new IntersectionObserver
+	(function(
+		entries, 
+		appearOnScroll
+) {
+	entries.forEach(entry => {
+		if (!entry.inIntersecting){
+			return;
+		} else {
+			entry.target.classList.add('appear');
+			appearOnScoll.unobserve(entry.target);
+		}
+	});
+}, 
+appearOptions);
+
+faders.forEach(fader => {
+	appearOnScoll.observer(fader);
+});
+
+</script>
 </body>
 </html>

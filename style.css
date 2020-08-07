@@ -1871,6 +1871,16 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   text-align: center;
 }
 
+.fade-in {
+  opacity: 0;
+  -webkit-transition: opacity 250ms ease-in;
+  transition: opacity 250ms ease-in;
+}
+
+.fade-in.appear {
+  opacity: 1;
+}
+
 .m0 {
   margin: 0;
 }
@@ -2004,7 +2014,8 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding-right: 10px;
 }
 
-.limit-900, .entry .entry-content .wp-block-image.limit-900 {
+.limit-900,
+.entry .entry-content .wp-block-image.limit-900 {
   max-width: 920px;
   margin: auto;
   padding-left: 10px;
@@ -5769,7 +5780,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 420px) {
   .splash--title {
-    font-size: calc(32px + 8 * ((100vw - 420px) / 280));
+    font-size: calc( 32px + 8 * ((100vw - 420px) / 280));
   }
 }
 
@@ -5898,7 +5909,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 350px) {
   .splash--outro {
-    font-size: calc(25px + 10 * ((100vw - 350px) / 950));
+    font-size: calc( 25px + 10 * ((100vw - 350px) / 950));
   }
 }
 
@@ -5918,7 +5929,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 350px) {
   .headline h2 {
-    font-size: calc(25px + 10 * ((100vw - 350px) / 950));
+    font-size: calc( 25px + 10 * ((100vw - 350px) / 950));
   }
 }
 
@@ -6030,7 +6041,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .focus-area--heading {
-    font-size: calc(28px + 12 * ((100vw - 320px) / 880));
+    font-size: calc( 28px + 12 * ((100vw - 320px) / 880));
   }
 }
 
@@ -6069,7 +6080,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .focus-area--copy {
-    font-size: calc(18px + 5 * ((100vw - 320px) / 880));
+    font-size: calc( 18px + 5 * ((100vw - 320px) / 880));
   }
 }
 
@@ -6091,7 +6102,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .focus-area--small-copy p, .focus-area--small-copy {
-    font-size: calc(15px + 3 * ((100vw - 320px) / 880));
+    font-size: calc( 15px + 3 * ((100vw - 320px) / 880));
   }
 }
 
@@ -6107,7 +6118,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .focus-area .link {
-    font-size: calc(15px + 3 * ((100vw - 320px) / 880));
+    font-size: calc( 15px + 3 * ((100vw - 320px) / 880));
   }
 }
 
@@ -6263,7 +6274,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .arrow-focus--heading {
-    font-size: calc(28px + 12 * ((100vw - 320px) / 880));
+    font-size: calc( 28px + 12 * ((100vw - 320px) / 880));
   }
 }
 
@@ -6284,7 +6295,7 @@ body.error404 div#page {
 
 @media screen and (min-width: 320px) {
   .arrow-focus--copy {
-    font-size: calc(18px + 5 * ((100vw - 320px) / 880));
+    font-size: calc( 18px + 5 * ((100vw - 320px) / 880));
   }
 }
 
