@@ -91,13 +91,13 @@ function toggleMenu() {
 
 /* Activate Submenu */
 function toggleItem() {
-  if (this.classList.contains("submenu-active")) {
-    this.classList.remove("submenu-active");
-  } else if (menu.querySelector(".submenu-active")) {
-    menu.querySelector(".submenu-active").classList.remove("submenu-active");
-    this.classList.add("submenu-active");
+  if (this.classList.contains("show")) {
+    this.classList.remove("show");
+  } else if (menu.querySelector(".show")) {
+    menu.querySelector(".show").classList.remove("show");
+    this.classList.add("show");
   } else {
-    this.classList.add("submenu-active");
+    this.classList.add("show");
   }
   if (document.documentElement.clientWidth < 960) {
   for (let item of items) {
@@ -112,8 +112,8 @@ function toggleItem() {
 function closeSubmenu(e) {
   let isClickInside = menu.contains(e.target);
 
-  if (!isClickInside && menu.querySelector(".submenu-active")) {
-    menu.querySelector(".submenu-active").classList.remove("submenu-active");
+  if (!isClickInside && menu.querySelector(".show")) {
+    menu.querySelector(".show").classList.remove("show");
   }
 }
 /* Event Listeners */
