@@ -99,6 +99,13 @@ function toggleItem() {
   } else {
     this.classList.add("submenu-active");
   }
+  if (document.documentElement.clientWidth < 960) {
+  for (let item of items) {
+      if (item.querySelector(".submenu")) {
+        item.addEventListener("click", toggleItem, false);
+    	}     
+  	}
+	}
 }
 
 /* Close Submenu From Anywhere */
