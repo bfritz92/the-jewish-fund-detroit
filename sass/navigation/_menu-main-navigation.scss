@@ -65,7 +65,8 @@
       &.show {
         display: flex;
       }
-      .menu-item-has-children.show ul {
+      .menu-item-has-children.show ul,
+      .menu-item-has-children:hover ul {
         display: flex;
         flex-direction: column;
       }

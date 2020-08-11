@@ -3232,7 +3232,8 @@ a[href$=".ppt"]:after {
   display: flex;
 }
 
-.site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
+.site-header .site-branding-container .nav-list .menu-item-has-children.show ul,
+.site-header .site-branding-container .nav-list .menu-item-has-children:hover ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
