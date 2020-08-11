@@ -75,7 +75,7 @@
 </script> -->
 <script>
 	const toggle = document.querySelector(".site-header");
-const menu = document.querySelector(".menu");
+const menu = document.querySelector(".nav-list");
 const items = document.querySelectorAll(".menu-item");
 
 /* Toggle mobile menu */
