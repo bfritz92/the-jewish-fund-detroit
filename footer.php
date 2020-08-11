@@ -84,7 +84,7 @@ function toggleMenu() {
     menu.classList.remove("show");
     toggle.querySelector("a").innerHTML = "<i class='fas fa-bars'></i>";
   } else {
-    menu.classList.add("showz");
+    menu.classList.add("show");
     toggle.querySelector("a").innerHTML = "<i class='fas fa-times'></i>";
   }
 }
