@@ -3212,7 +3212,7 @@ a[href$=".ppt"]:after {
   -ms-flex-pack: distribute;
       justify-content: space-around;
   list-style: none;
-  font-size: .8rem;
+  font-size: 0.8rem;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -3230,6 +3230,10 @@ a[href$=".ppt"]:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
+  display: block;
 }
 
 @media only screen and (min-width: 920px) {
@@ -3256,8 +3260,8 @@ a[href$=".ppt"]:after {
   background-color: transparent;
   padding: 0;
   opacity: 0%;
-  -webkit-transition: opacity, .5s;
-  transition: opacity, .5s;
+  -webkit-transition: opacity, 0.5s;
+  transition: opacity, 0.5s;
   padding-left: 0;
   width: 100%;
 }
@@ -3277,7 +3281,7 @@ a[href$=".ppt"]:after {
   padding: 10px 15px;
 }
 
-.sub-menu li:nth-child(2n+1), .sub-menu li:hover {
+.sub-menu li:nth-child(2n + 1), .sub-menu li:hover {
   background-color: #f4f4f4;
 }
 
