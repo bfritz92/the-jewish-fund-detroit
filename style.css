@@ -5729,7 +5729,7 @@ body.error404 div#page {
   color: #FFF;
 }
 
-body.home {
+.home {
   overflow-x: hidden;
 }
 
