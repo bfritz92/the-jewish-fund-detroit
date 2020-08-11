@@ -74,7 +74,7 @@
 
 </script> -->
 <script>
-	const toggle = document.querySelector(".site-header");
+	const toggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".nav-list");
 const items = document.querySelectorAll(".menu-item");
 
