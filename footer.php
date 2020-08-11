@@ -134,7 +134,7 @@ window.addEventListener("scroll", event => {
 <script>
 	window.addEventListener("load", () => {
  // Retrieve all help sections
- const sections = Array.from(document.querySelectorAll("section[id]"));
+ const sections = Array.from(document.querySelectorAll(".sticky-nav--nav li a"));
 
  // Once a scrolling event is detected, iterate all elements
  // whose visibility changed and highlight their navigation entry
