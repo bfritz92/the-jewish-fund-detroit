@@ -119,7 +119,7 @@ function closeSubmenu(e) {
 /* Event Listeners */
 toggle.addEventListener("click", toggleMenu, false);
 for (let item of items) {
-  if (item.querySelector(".submenu")) {
+  if (item.querySelector(".sub-menu")) {
     item.addEventListener("click", toggleItem, false);
   }
   item.addEventListener("keypress", toggleItem, false);
