@@ -49,30 +49,6 @@
 <?php wp_footer(); ?>
 
 <!-- Menu subnavs -->       
-<!-- <script >
-	//menu functions
-	//grabbing constants
-	const menuToggle = document.querySelectorAll('.menu-toggle');
-	const hasSubMenu = document.querySelectorAll('.menu-item-has-children');
-	const navList = document.querySelectorAll('#navList');
-	
-	function handleMenuClick(event) {
-		const button = event.target;
-		navList[0].classList.toggle('show');
-	};
-	menuToggle[0].addEventListener('click', handleMenuClick);
-
-  	const dropDown = document.querySelectorAll('.menu-item-has-children');
-  	for(i=0;i<dropDown.length;i++)
-	dropDown[i].onclick=doSomething;
-
-	function doSomething() {
- 	const current = event.currentTarget;
- 	current.querySelector("ul").classList.toggle("show");
-
-	}
-
-</script> -->
 <script>
 	const toggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".nav-list");
@@ -129,7 +105,7 @@ document.addEventListener("click", closeSubmenu, false);
 </script>
 
 <!-- Sticky Nav -->
-<script>
+<!-- <script>
 	let mainNavLinks = document.querySelectorAll("ul.sticky-nav--nav li a");
 	let mainSections = document.querySelectorAll(".sticky-nav--item");
 	console.log("got the vars");
@@ -153,6 +129,35 @@ window.addEventListener("scroll", event => {
 	  console.log("removed the class!");
     }
   });
+});
+</script> -->
+<script>
+	window.addEventListener("load", () => {
+ // Retrieve all help sections
+ const sections = Array.from(document.querySelectorAll("section[id]"));
+
+ // Once a scrolling event is detected, iterate all elements
+ // whose visibility changed and highlight their navigation entry
+ const scrollHandler = entries =>
+  entries.forEach(entry => {
+   const section = entry.target;
+   const sectionId = section.id;
+   const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
+
+   if (entry.intersectionRatio > 0) {
+    section.classList.add("visible");
+    sectionLink.classList.add("visible");
+   } else {
+    section.classList.remove("visible");
+    sectionLink.classList.remove("visible");
+   }
+  });
+
+ // Creates a new scroll observer
+ const observer = new IntersectionObserver(scrollHandler);
+
+ //noinspection JSCheckFunctionSignatures
+ sections.forEach(section => observer.observe(section));
 });
 </script>
 
