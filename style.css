@@ -3236,12 +3236,10 @@ a[href$=".ppt"]:after {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-}
-
-@media only screen and (min-width: 920px) {
-  .site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
-    display: inherit;
-  }
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 @media only screen and (min-width: 920px) {

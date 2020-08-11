@@ -67,9 +67,7 @@
       }
       .menu-item-has-children.show ul {
         display: flex;
-        @media only screen and (min-width: $large-tablet) {
-          display: inherit;
-        }
+        flex-direction: column;
       }
       @media only screen and (min-width: $large-tablet) {
         display: flex;
