@@ -140,7 +140,7 @@ window.addEventListener("scroll", event => {
  // whose visibility changed and highlight their navigation entry
  const scrollHandler = entries =>
   entries.forEach(entry => {
-   const section = entry.target;
+   const section = entry.href;
    const sectionId = section.id;
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
