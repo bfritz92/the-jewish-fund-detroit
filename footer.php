@@ -145,11 +145,11 @@ window.addEventListener("scroll", event => {
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
    if (entry.intersectionRatio > 0) {
-    section.classList.add("visible");
-    sectionLink.classList.add("visible");
+    section.classList.add("active");
+    sectionLink.classList.add("active");
    } else {
-    section.classList.remove("visible");
-    sectionLink.classList.remove("visible");
+    section.classList.remove("active");
+    sectionLink.classList.remove("active");
    }
   });
 
@@ -160,6 +160,8 @@ window.addEventListener("scroll", event => {
  sections.forEach(section => observer.observe(section));
 });
 </script>
+
+
 
 <!-- Fade-in script -->
 <script>
