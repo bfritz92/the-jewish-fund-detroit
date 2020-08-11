@@ -66,7 +66,10 @@
         display: flex;
       }
       .menu-item-has-children.show ul {
-        display: block;
+        display: flex;
+        @media only screen and (min-width: $large-tablet) {
+          display: inherit;
+        }
       }
       @media only screen and (min-width: $large-tablet) {
         display: flex;
@@ -112,12 +115,6 @@ ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
     display: block;
 
     opacity: 100%;
-  }
-  .show {
-    display: flex;
-    @media only screen and (min-width: $large-tablet) {
-      display: inherit;
-    }
   }
 }
 

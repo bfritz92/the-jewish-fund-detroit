@@ -3233,7 +3233,15 @@ a[href$=".ppt"]:after {
 }
 
 .site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
-  display: block;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+@media only screen and (min-width: 920px) {
+  .site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
+    display: inherit;
+  }
 }
 
 @media only screen and (min-width: 920px) {
@@ -3290,20 +3298,6 @@ a[href$=".ppt"]:after {
   ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu {
     display: block;
     opacity: 100%;
-  }
-}
-
-ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu .show,
-ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-@media only screen and (min-width: 920px) {
-  ul.nav-list li.menu-item.menu-item-has-children:hover ul.sub-menu .show,
-  ul.nav-list li.menu-item.menu-item-has-children:focus ul.sub-menu .show {
-    display: inherit;
   }
 }
 
