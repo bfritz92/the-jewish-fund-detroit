@@ -3232,8 +3232,7 @@ a[href$=".ppt"]:after {
   display: flex;
 }
 
-.site-header .site-branding-container .nav-list .menu-item-has-children.show ul,
-.site-header .site-branding-container .nav-list .menu-item-has-children:hover ul {
+.site-header .site-branding-container .nav-list .menu-item-has-children.show ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3241,6 +3240,18 @@ a[href$=".ppt"]:after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+@media only screen and (min-width: 920px) {
+  .site-header .site-branding-container .nav-list .menu-item-has-children:hover ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 @media only screen and (min-width: 920px) {

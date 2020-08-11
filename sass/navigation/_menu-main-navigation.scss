@@ -65,10 +65,15 @@
       &.show {
         display: flex;
       }
-      .menu-item-has-children.show ul,
-      .menu-item-has-children:hover ul {
+      .menu-item-has-children.show ul {
         display: flex;
         flex-direction: column;
+      }
+      .menu-item-has-children:hover ul {
+        @media only screen and (min-width: $large-tablet) {
+          display: flex;
+          flex-direction: column;
+        }
       }
       @media only screen and (min-width: $large-tablet) {
         display: flex;
