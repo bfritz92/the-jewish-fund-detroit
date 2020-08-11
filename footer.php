@@ -147,9 +147,11 @@ window.addEventListener("scroll", event => {
    if (entry.intersectionRatio > 0) {
     section.classList.add("active");
     sectionLink.classList.add("active");
+	console.log('check');
    } else {
     section.classList.remove("active");
     sectionLink.classList.remove("active");
+	console.log('check check');
    }
   });
 
