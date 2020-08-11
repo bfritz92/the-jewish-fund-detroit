@@ -76,7 +76,7 @@
 <script>
 	const toggle = document.querySelector(".menu-toggle");
 const menu = document.querySelector(".nav-list");
-const items = document.querySelectorAll(".menu-item-has-children");
+const items = document.querySelectorAll(".menu-item");
 
 /* Toggle mobile menu */
 function toggleMenu() {
@@ -101,7 +101,7 @@ function toggleItem() {
   }
   if (document.documentElement.clientWidth < 960) {
   for (let item of items) {
-      if (item.querySelector(".submenu")) {
+      if (item.querySelector(".sub-menu")) {
         item.addEventListener("click", toggleItem, false);
     	}     
   	}
