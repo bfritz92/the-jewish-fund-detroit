@@ -5729,6 +5729,10 @@ body.error404 div#page {
   color: #FFF;
 }
 
+body.home {
+  overflow-x: hidden;
+}
+
 .splash {
   display: -ms-grid;
   display: grid;
