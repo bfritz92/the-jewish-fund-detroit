@@ -20,7 +20,7 @@
 		<div class="site-info">
 			<?php $blog_info = get_bloginfo( 'name' ); ?>
 			<?php if ( ! empty( $blog_info ) ) : ?>
-				<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="../wp-content/uploads/2020/07/jewish-fund-logo-white.svg"></a>
+				<a class="site-logo" href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><img src="wp-content/uploads/2020/07/jewish-fund-logo-white.svg"></a>
 			<?php endif; ?>
 			<address>
 			<p class="white mt0 mb0">6735 Telegraph Road, </p>
