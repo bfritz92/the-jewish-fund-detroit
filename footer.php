@@ -141,8 +141,8 @@ window.addEventListener("scroll", event => {
  const scrollHandler = entries =>
   entries.forEach(entry => {
    const section = entry.href;
-   const sectionId = section.id;
-   const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
+   //const sectionId = section.id;
+   const sectionLink = document.querySelector(`a[href="#${section}"]`);
 
    if (entry.intersectionRatio > 0) {
     section.classList.add("active");
