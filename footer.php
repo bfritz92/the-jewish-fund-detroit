@@ -149,8 +149,6 @@ window.addEventListener("load", () => {
    if (entry.intersectionRatio > 0) {
     section.classList.add("active");
     sectionLink.parentElement.classList.add("active");
-	let ratio = entry.intersectionRatio;
-	sectionLink.parentElement.style.opacity = ratio;
    } else {
     section.classList.remove("active");
     sectionLink.parentElement.classList.remove("active");
