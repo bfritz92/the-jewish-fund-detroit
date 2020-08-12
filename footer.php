@@ -131,27 +131,27 @@ window.addEventListener("scroll", event => {
   });
 });
 </script> -->
+
+
 <script>
-	window.addEventListener("load", () => {
+window.addEventListener("load", () => {
  // Retrieve all help sections
- const sections = Array.from(document.querySelectorAll(".sticky-nav--nav li a"));
+ const sections = Array.from(document.querySelectorAll(".sticky-nav--item"));
 
  // Once a scrolling event is detected, iterate all elements
  // whose visibility changed and highlight their navigation entry
  const scrollHandler = entries =>
   entries.forEach(entry => {
    const section = entry.target;
-   const sectionId = section.href;
+   const sectionId = section.id;
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
    if (entry.intersectionRatio > 0) {
-    
-    sectionLink.classList.add("active");
-	console.log('check');
+    section.classList.add("visible");
+    sectionLink.classList.add("visible");
    } else {
-    
-    sectionLink.classList.remove("active");
-	console.log('check check');
+    section.classList.remove("visible");
+    sectionLink.classList.remove("visible");
    }
   });
 
@@ -161,6 +161,8 @@ window.addEventListener("scroll", event => {
  //noinspection JSCheckFunctionSignatures
  sections.forEach(section => observer.observe(section));
 });
+
+
 </script>
 
 
