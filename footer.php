@@ -140,9 +140,9 @@ window.addEventListener("scroll", event => {
  // whose visibility changed and highlight their navigation entry
  const scrollHandler = entries =>
   entries.forEach(entry => {
-   const section = entry.href;
-   //const sectionId = section.id;
-   const sectionLink = document.querySelector(`a[href="#${section}"]`);
+   const section = entry.target;
+   const sectionId = section.href;
+   const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
    if (entry.intersectionRatio > 0) {
     section.classList.add("active");
