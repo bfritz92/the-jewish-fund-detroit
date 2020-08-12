@@ -2104,7 +2104,7 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   display: block;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .mobile-only {
     display: none;
   }
@@ -4274,7 +4274,7 @@ a[href$=".ppt"]:after {
   font-size: 28px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .page.type-page .entry-header .entry-title h2 {
     font-size: 40px;
   }
@@ -4490,7 +4490,7 @@ body.error404 div#page {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   #colophon .site-info {
     display: -ms-grid;
     display: grid;
@@ -4505,7 +4505,7 @@ body.error404 div#page {
   max-width: 150px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   #colophon .site-info .site-logo {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -4526,7 +4526,7 @@ body.error404 div#page {
   padding: 1rem 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   #colophon .site-info address {
     padding: 0;
     -ms-flex-item-align: center;
@@ -4535,7 +4535,7 @@ body.error404 div#page {
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   #colophon .site-info .footer-navigation {
     -ms-flex-item-align: Center;
         -ms-grid-row-align: Center;
@@ -5743,7 +5743,7 @@ body.error404 div#page {
   min-height: 500px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -5763,7 +5763,7 @@ body.error404 div#page {
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--partners {
     -ms-grid-column: 1;
     grid-column: 1;
@@ -5803,7 +5803,7 @@ body.error404 div#page {
   z-index: 1;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--seekers {
     display: -ms-grid;
     display: grid;
@@ -5851,11 +5851,11 @@ body.error404 div#page {
 
 @media screen and (min-width: 420px) {
   .splash--title {
-    font-size: calc( 32px + 8 * ((100vw - 420px) / 380));
+    font-size: calc( 32px + 8 * ((100vw - 420px) / 280));
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 700px) {
   .splash--title {
     font-size: 40px;
   }
@@ -5888,7 +5888,7 @@ body.error404 div#page {
   margin-bottom: 2rem;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--links {
     -ms-flex-item-align: center;
         -ms-grid-row-align: center;
@@ -5905,7 +5905,7 @@ body.error404 div#page {
           justify-content: center;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--links div {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
@@ -5933,7 +5933,7 @@ body.error404 div#page {
   text-align: center;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--links div .left {
     text-align: left;
   }
@@ -5959,7 +5959,7 @@ body.error404 div#page {
   text-align: center;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .splash--links div .right {
     text-align: right;
   }
@@ -6521,7 +6521,7 @@ body.error404 div#page {
   background-color: #264160;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .annual-report--splash {
     display: -ms-grid;
     display: grid;
@@ -6548,7 +6548,7 @@ body.error404 div#page {
   z-index: 1;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .annual-report--splash--img {
     z-index: -1;
   }
@@ -6568,7 +6568,7 @@ body.error404 div#page {
   padding-bottom: 1rem;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .annual-report--splash--panel {
     background-color: transparent;
     color: #264160;
@@ -6590,7 +6590,7 @@ body.error404 div#page {
   padding-left: 15px;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 700px) {
   .annual-report--content .right-panel figure {
     display: none;
   }
@@ -6669,7 +6669,7 @@ body.error404 div#page {
   display: block;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .grant-container {
     display: -ms-grid;
     display: grid;
@@ -6744,7 +6744,7 @@ body.error404 div#page {
       grid-template-rows: auto auto;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .grant-container .grant {
     -ms-grid-rows: clamp(250px, 30vw, 400px) auto;
         grid-template-rows: clamp(250px, 30vw, 400px) auto;
@@ -6798,7 +6798,7 @@ body.error404 div#page {
   grid-column: 1/-1;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .grant-container .grant.multi-grant {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
@@ -6846,7 +6846,7 @@ body.error404 div#page {
   padding: 10px;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .grant-container .grant.multi-grant.flip img {
     -ms-grid-column: 2;
     grid-column: 2;
@@ -6895,7 +6895,7 @@ body.error404 div#page {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .accordion-tabs {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -6911,14 +6911,14 @@ body.error404 div#page {
   padding-left: 0;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .accordion-tabs--nav {
     padding-right: 20px;
     margin: 0;
   }
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .accordion-tabs--item h3 {
     margin-top: 0;
   }
@@ -6928,7 +6928,7 @@ body.error404 div#page {
   display: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .accordion-tabs--title {
     padding-left: 370px;
   }
@@ -7091,7 +7091,7 @@ body.error404 div#page {
           column-count: 1;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .board--fund div {
     -webkit-column-count: 2;
             column-count: 2;
@@ -7110,7 +7110,7 @@ body.error404 div#page {
   display: block;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .board--teenboard {
     display: -ms-grid;
     display: grid;
@@ -7132,7 +7132,7 @@ section.one-three {
   display: block;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   section.one-three {
     display: -ms-grid;
     display: grid;
@@ -7152,7 +7152,7 @@ section.one-three {
           flex-direction: column;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .sticky-nav {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
@@ -7167,7 +7167,7 @@ section.one-three {
   list-style: none;
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 700px) {
   .sticky-nav--nav {
     text-align: left;
     min-width: 250px;
