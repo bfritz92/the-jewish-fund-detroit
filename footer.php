@@ -147,11 +147,11 @@ window.addEventListener("load", () => {
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
    if (entry.intersectionRatio > 0) {
-    section.classList.add("visible");
-    sectionLink.classList.add("visible");
+    section.classList.add("active");
+    sectionLink.parentElement.classList.add("active");
    } else {
-    section.classList.remove("visible");
-    sectionLink.classList.remove("visible");
+    section.classList.remove("active");
+    sectionLink.parentElement.classList.remove("active");
    }
   });
 
