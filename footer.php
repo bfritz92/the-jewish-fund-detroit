@@ -146,7 +146,7 @@ window.addEventListener("load", () => {
    const sectionId = section.id;
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
-   if (entry.intersectionRatio > 0) {
+   if (entry.intersectionRatio > 0.6) {
     section.classList.add("active");
     sectionLink.parentElement.classList.add("active");
    } else {
