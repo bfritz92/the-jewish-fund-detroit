@@ -3307,7 +3307,7 @@ a[href$=".ppt"]:after {
 }
 
 .sub-menu li:hover {
-  background-color: whitesmoke;
+  background-color: #f0f0f0;
 }
 
 .sub-menu li a {
