@@ -3298,8 +3298,16 @@ a[href$=".ppt"]:after {
   padding: 10px 15px;
 }
 
-.sub-menu li:nth-child(2n + 1), .sub-menu li:hover {
+.sub-menu li:nth-child(2n + 1) {
   background-color: #f4f4f4;
+}
+
+.sub-menu li:nth-child(2n + 1):hover {
+  background-color: #eaeaea;
+}
+
+.sub-menu li:hover {
+  background-color: whitesmoke;
 }
 
 .sub-menu li a {

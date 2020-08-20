@@ -108,9 +108,14 @@
   li {
     padding: 10px 15px;
 
-    &:nth-child(2n + 1),
-    &:hover {
+    &:nth-child(2n + 1) {
       background-color: #f4f4f4;
+      &:hover {
+        background-color: darken(#f4f4f4, 4);
+      }
+    }
+    &:hover {
+      background-color: darken(#fff, 4);
     }
     a {
       width: 100%;
