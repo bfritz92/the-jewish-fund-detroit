@@ -110,12 +110,9 @@
 
     &:nth-child(2n + 1) {
       background-color: #f4f4f4;
-      &:hover {
-        background-color: darken(#f4f4f4, 4);
-      }
     }
     &:hover {
-      background-color: darken(#fff, 6);
+      background-color: darken(#f4f4f4, 6);
     }
     a {
       width: 100%;

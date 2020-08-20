@@ -3302,12 +3302,8 @@ a[href$=".ppt"]:after {
   background-color: #f4f4f4;
 }
 
-.sub-menu li:nth-child(2n + 1):hover {
-  background-color: #eaeaea;
-}
-
 .sub-menu li:hover {
-  background-color: #f0f0f0;
+  background-color: #e5e5e5;
 }
 
 .sub-menu li a {
