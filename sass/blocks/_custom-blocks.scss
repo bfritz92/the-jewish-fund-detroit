@@ -806,6 +806,18 @@
     }
   }
 }
+
+/* SOSNICK PAGE NUMBERING */
+.sosnick-group .wp-block-group__inner-container {
+  counter-reset: qual;
+}
+p.sosnick::before {
+  counter-increment: qual;
+  content: counter(qual) ": ";
+  padding-right: 10px;
+  font-weight: 700;
+}
+
 #teenboard.annual-report--content {
   display: block;
   @media only screen and (min-width: $large-tablet) {
