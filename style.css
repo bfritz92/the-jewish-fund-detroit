@@ -7035,6 +7035,11 @@ p.sosnick::before {
   content: counter(qual) ": ";
   padding-right: 10px;
   font-weight: 700;
+  color: #264160;
+}
+
+p.sosnick strong {
+  color: #264160;
 }
 
 #teenboard.annual-report--content {

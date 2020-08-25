@@ -816,6 +816,10 @@ p.sosnick::before {
   content: counter(qual) ": ";
   padding-right: 10px;
   font-weight: 700;
+  color: $color__dark-blue;
+}
+p.sosnick strong {
+  color: $color__dark-blue;
 }
 
 #teenboard.annual-report--content {
