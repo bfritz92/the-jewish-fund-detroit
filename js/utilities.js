@@ -118,8 +118,9 @@ sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
 
-<!-- Navbar Scroll-hide -->
-<script>
+/* Navbar Scroll-hide */
+
+
 $(document).ready(function () {
   
   'use strict';
@@ -142,4 +143,4 @@ $(document).ready(function () {
   });
   
 });
-</script>
+
