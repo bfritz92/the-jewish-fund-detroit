@@ -3312,6 +3312,11 @@ a[href$=".ppt"]:after {
   display: inline-block;
 }
 
+.scrollyhide {
+  -webkit-transform: translateY(-80px);
+          transform: translateY(-80px);
+}
+
 .show {
   display: block;
   opacity: 100%;
