@@ -67,9 +67,10 @@ window.addEventListener("load", () => {
    const sectionId = section.id;
    const sectionLink = document.querySelector(`a[href="#${sectionId}"]`);
 
-   if (entry.intersectionRatio > 0.1) {
+   if (entry.intersectionRatio > 0) {
     section.classList.add("active");
     sectionLink.parentElement.classList.add("active");
+    console.log(entry.intersectionRatio);
    } else {
     section.classList.remove("active");
     sectionLink.parentElement.classList.remove("active");
