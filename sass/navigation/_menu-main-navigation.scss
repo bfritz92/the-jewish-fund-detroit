@@ -121,7 +121,9 @@
     }
   }
 }
-
+.scrollyhide {
+  transform: translateY(-75px);
+}
 .show {
   display: block;
   opacity: 100%;
