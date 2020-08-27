@@ -117,3 +117,29 @@ faders.forEach(fader => {
 sliders.forEach(slider => {
   appearOnScroll.observe(slider);
 });
+
+<!-- Navbar Scroll-hide -->
+<script>
+$(document).ready(function () {
+  
+  'use strict';
+  
+   var c, currentScrollTop = 0,
+       navbar = $('#masthead');
+
+   $(window).scroll(function () {
+      var a = $(window).scrollTop();
+      var b = navbar.height();
+     
+      currentScrollTop = a;
+     
+      if (c < currentScrollTop && a > b + b) {
+        navbar.addClass("scrollyhide");
+      } else if (c > currentScrollTop && !(a <= b)) {
+        navbar.removeClass("scrollyhide");
+      }
+      c = currentScrollTop;
+  });
+  
+});
+</script>
