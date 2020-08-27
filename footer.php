@@ -48,6 +48,6 @@
 
 <?php wp_footer(); ?>
 
-<script src="wp-content/themes/the-jewish-fund-detroit/js/utilities.js"></script>
+<script src="<?php echo get_template_directory_uri(); ?>/wp-content/themes/the-jewish-fund-detroit/js/utilities.js"></script>
 </body>
 </html>
