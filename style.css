@@ -7203,29 +7203,34 @@ section.one-three {
     height: 100%;
     padding-right: 15px;
   }
-  .sticky-nav--nav li {
-    width: 100%;
-    color: #264160;
-    -webkit-transition: background-color, 0.5s, ease-in-out;
-    transition: background-color, 0.5s, ease-in-out;
-    padding: 10px 15px 10px 15px;
-  }
-  .sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
-    background-color: #264160;
-  }
-  .sticky-nav--nav li.active {
-    background-color: #0056b8;
-  }
-  .sticky-nav--nav li:hover a,
-  .sticky-nav--nav li:focus a,
-  .sticky-nav--nav li:active a,
-  .sticky-nav--nav li.active a {
-    color: #fff;
-  }
-  .sticky-nav--nav li a {
-    width: 100%;
-    color: #0056b8;
-  }
+}
+
+.sticky-nav--nav li {
+  width: 100%;
+  color: #264160;
+  -webkit-transition: background-color, 0.5s, ease-in-out;
+  transition: background-color, 0.5s, ease-in-out;
+  padding: 10px 15px 10px 15px;
+}
+
+.sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
+  background-color: #264160;
+}
+
+.sticky-nav--nav li.active {
+  background-color: #0056b8;
+}
+
+.sticky-nav--nav li:hover a,
+.sticky-nav--nav li:focus a,
+.sticky-nav--nav li:active a,
+.sticky-nav--nav li.active a {
+  color: #fff;
+}
+
+.sticky-nav--nav li a {
+  width: 100%;
+  color: #0056b8;
 }
 
 .sticky-nav--nav .teen-board .sticky-nav--nav li {

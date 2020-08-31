@@ -925,29 +925,29 @@ section.one-three {
       top: 80px;
       height: 100%;
       padding-right: 15px;
-      li {
+    }
+    li {
+      width: 100%;
+      color: $color__dark-blue;
+      transition: (background-color, 0.5s, ease-in-out);
+      padding: 10px 15px 10px 15px;
+      &:hover,
+      &:focus,
+      &:active {
+        background-color: $color__dark-blue;
+      }
+      &.active {
+        background-color: $color__main-blue;
+      }
+      &:hover a,
+      &:focus a,
+      &:active a,
+      &.active a {
+        color: #fff;
+      }
+      a {
         width: 100%;
-        color: $color__dark-blue;
-        transition: (background-color, 0.5s, ease-in-out);
-        padding: 10px 15px 10px 15px;
-        &:hover,
-        &:focus,
-        &:active {
-          background-color: $color__dark-blue;
-        }
-        &.active {
-          background-color: $color__main-blue;
-        }
-        &:hover a,
-        &:focus a,
-        &:active a,
-        &.active a {
-          color: #fff;
-        }
-        a {
-          width: 100%;
-          color: $color__main-blue;
-        }
+        color: $color__main-blue;
       }
     }
     .teen-board {
