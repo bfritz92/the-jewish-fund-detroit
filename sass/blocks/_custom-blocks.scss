@@ -11,11 +11,9 @@
   @media only screen and (min-width: $tablet) {
     grid-template-columns: 1fr 1fr;
     min-height: 50vw;
-    max-height: 50vw;
   }
   @media only screen and (min-width: $laptop) {
     min-height: 40vw;
-    max-height: 40vw;
   }
 
   &--partners {

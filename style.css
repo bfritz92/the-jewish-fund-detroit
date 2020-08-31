@@ -5757,14 +5757,12 @@ body.error404 div#page {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
     min-height: 50vw;
-    max-height: 50vw;
   }
 }
 
 @media only screen and (min-width: 1200px) {
   .splash {
     min-height: 40vw;
-    max-height: 40vw;
   }
 }
 
