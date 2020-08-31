@@ -7205,16 +7205,16 @@ section.one-three {
   }
   .sticky-nav--nav li {
     width: 100%;
-    color: #00586A;
+    color: #264160;
     -webkit-transition: background-color, 0.5s, ease-in-out;
     transition: background-color, 0.5s, ease-in-out;
     padding: 10px 15px 10px 15px;
   }
   .sticky-nav--nav li:hover, .sticky-nav--nav li:focus, .sticky-nav--nav li:active {
-    background-color: #52C2B6;
+    background-color: #264160;
   }
   .sticky-nav--nav li.active {
-    background-color: #00586A;
+    background-color: #0056b8;
   }
   .sticky-nav--nav li:hover a,
   .sticky-nav--nav li:focus a,
@@ -7224,8 +7224,24 @@ section.one-three {
   }
   .sticky-nav--nav li a {
     width: 100%;
-    color: #52C2B6;
+    color: #0056b8;
   }
+}
+
+.sticky-nav--nav .teen-board .sticky-nav--nav li {
+  color: #52C2B6;
+}
+
+.sticky-nav--nav .teen-board .sticky-nav--nav li:active {
+  background-color: #00586A;
+}
+
+.sticky-nav--nav .teen-board .sticky-nav--nav li.active {
+  background-color: #52C2B6;
+}
+
+.sticky-nav--nav .teen-board .sticky-nav--nav li a {
+  color: #52C2B6;
 }
 
 .sticky-nav--item h2,

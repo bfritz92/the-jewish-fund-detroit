@@ -927,16 +927,16 @@ section.one-three {
       padding-right: 15px;
       li {
         width: 100%;
-        color: $color__teen-board-teal;
+        color: $color__dark-blue;
         transition: (background-color, 0.5s, ease-in-out);
         padding: 10px 15px 10px 15px;
         &:hover,
         &:focus,
         &:active {
-          background-color: $color__teen-board-green;
+          background-color: $color__dark-blue;
         }
         &.active {
-          background-color: $color__teen-board-teal;
+          background-color: $color__main-blue;
         }
         &:hover a,
         &:focus a,
@@ -946,11 +946,26 @@ section.one-three {
         }
         a {
           width: 100%;
+          color: $color__main-blue;
+        }
+      }
+    }
+    .teen-board {
+      .sticky-nav--nav li {
+        color: $color__teen-board-green;
+        &:active {
+          background-color: $color__teen-board-teal;
+        }
+        &.active {
+          background-color: $color__teen-board-green;
+        }
+        a {
           color: $color__teen-board-green;
         }
       }
     }
   }
+
   &--item {
     h2,
     h3,
