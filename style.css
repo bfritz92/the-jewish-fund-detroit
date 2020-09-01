@@ -7231,19 +7231,19 @@ section.one-three {
   color: #0056b8;
 }
 
-.sticky-nav--nav .teen-board .sticky-nav--nav li {
+.sticky-nav--nav.teen-board .sticky-nav--nav li {
   color: #52C2B6;
 }
 
-.sticky-nav--nav .teen-board .sticky-nav--nav li:active {
+.sticky-nav--nav.teen-board .sticky-nav--nav li:active {
   background-color: #00586A;
 }
 
-.sticky-nav--nav .teen-board .sticky-nav--nav li.active {
+.sticky-nav--nav.teen-board .sticky-nav--nav li.active {
   background-color: #52C2B6;
 }
 
-.sticky-nav--nav .teen-board .sticky-nav--nav li a {
+.sticky-nav--nav.teen-board .sticky-nav--nav li a {
   color: #52C2B6;
 }
 

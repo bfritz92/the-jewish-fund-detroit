@@ -948,7 +948,7 @@ section.one-three {
         color: $color__main-blue;
       }
     }
-    .teen-board {
+    &.teen-board {
       .sticky-nav--nav li {
         color: $color__teen-board-green;
         &:active {
