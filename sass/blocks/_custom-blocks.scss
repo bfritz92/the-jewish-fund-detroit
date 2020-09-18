@@ -815,9 +815,13 @@ p.sosnick::before {
   padding-right: 10px;
   font-weight: 700;
   color: $color__dark-blue;
+  margin: -25px;
 }
 p.sosnick strong {
   color: $color__dark-blue;
+}
+p.sosnick {
+  padding-left: 30px;
 }
 
 #teenboard.annual-report--content {
