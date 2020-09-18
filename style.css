@@ -7039,10 +7039,15 @@ p.sosnick::before {
   padding-right: 10px;
   font-weight: 700;
   color: #264160;
+  margin: -25px;
 }
 
 p.sosnick strong {
   color: #264160;
+}
+
+p.sosnick {
+  padding-left: 30px;
 }
 
 #teenboard.annual-report--content {
