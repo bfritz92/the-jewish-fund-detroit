@@ -3312,6 +3312,12 @@ a[href$=".ppt"]:after {
   display: inline-block;
 }
 
+@media only screen and (min-width: 1200px) {
+  .nav-list li:last-child ul.sub-menu {
+    right: 0;
+  }
+}
+
 .scrollyhide {
   -webkit-transform: translateY(-80px);
           transform: translateY(-80px);

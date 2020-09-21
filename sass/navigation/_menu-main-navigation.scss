@@ -121,6 +121,11 @@
     }
   }
 }
+.nav-list li:last-child ul.sub-menu {
+  @media only screen and (min-width: $laptop) {
+    right: 0;
+  }
+}
 .scrollyhide {
   transform: translateY(-80px);
 }
