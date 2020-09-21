@@ -3223,7 +3223,9 @@ a[href$=".ppt"]:after {
 
 .site-header .site-branding-container .nav-list li {
   line-height: 3.1;
-  width: 100%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   text-align: center;
 }
 
@@ -3267,7 +3269,7 @@ a[href$=".ppt"]:after {
     text-align: left;
   }
   .site-header .site-branding-container .nav-list li {
-    line-height: 1.8;
+    line-height: 1.3;
   }
 }
 
