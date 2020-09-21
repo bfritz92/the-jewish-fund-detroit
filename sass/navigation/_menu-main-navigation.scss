@@ -55,7 +55,6 @@
       font-size: 0.8rem;
       align-items: center;
       max-width: 750px;
-      //why isn't this updated?
       text-align: center;
       padding-left: 0;
       li {
@@ -90,7 +89,7 @@
 }
 
 //menu styles
-.sub-menu {
+#navList li .sub-menu {
   list-style: none;
   display: none;
   position: relative;
