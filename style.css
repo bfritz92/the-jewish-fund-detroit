@@ -3757,7 +3757,7 @@ a[href$=".ppt"]:after {
 
 .site-content {
   /*overflow: hidden;*/
-  min-height: calc(100vh-280px);
+  min-height: calc(100vh - 280px);
 }
 
 /* Content */
