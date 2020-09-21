@@ -3273,7 +3273,7 @@ a[href$=".ppt"]:after {
   }
 }
 
-#navList li .sub-menu {
+.sub-menu {
   list-style: none;
   display: none;
   position: relative;
@@ -3287,7 +3287,7 @@ a[href$=".ppt"]:after {
 }
 
 @media only screen and (min-width: 920px) {
-  #navList li .sub-menu {
+  .sub-menu {
     position: absolute;
     z-index: 3;
     background-color: #fff;
@@ -3297,20 +3297,20 @@ a[href$=".ppt"]:after {
   }
 }
 
-#navList li .sub-menu li {
+.sub-menu li {
   padding: 10px 15px;
   width: 100%;
 }
 
-#navList li .sub-menu li:nth-child(2n + 1) {
+.sub-menu li:nth-child(2n + 1) {
   background-color: #f4f4f4;
 }
 
-#navList li .sub-menu li:hover {
+.sub-menu li:hover {
   background-color: #e5e5e5;
 }
 
-#navList li .sub-menu li a {
+.sub-menu li a {
   width: 100%;
   height: 100%;
   display: inline-block;
