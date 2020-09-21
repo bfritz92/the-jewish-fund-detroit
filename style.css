@@ -3299,6 +3299,7 @@ a[href$=".ppt"]:after {
 
 .sub-menu li {
   padding: 10px 15px;
+  width: 100%;
 }
 
 .sub-menu li:nth-child(2n + 1) {
