@@ -7145,6 +7145,15 @@ body.error404 div#page {
   padding-left: 1rem;
 }
 
+.wp-block-group.teen-perspective .wp-block-group__inner-container {
+  padding: 10px 25px;
+  background-color: #ddfaf7;
+}
+
+.wp-block-group.teen-perspective .wp-block-group__inner-container h4 {
+  text-align: right;
+}
+
 section.one-three {
   display: block;
 }

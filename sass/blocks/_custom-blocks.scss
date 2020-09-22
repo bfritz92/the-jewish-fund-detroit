@@ -876,7 +876,13 @@
     padding-left: 1rem;
   }
 }
-
+.wp-block-group.teen-perspective .wp-block-group__inner-container {
+  padding: 10px 25px;
+  background-color: #ddfaf7;
+  h4 {
+    text-align: right;
+  }
+}
 //UTILITY AND LAYOUT BLOCKS
 
 //ONE-THREE
