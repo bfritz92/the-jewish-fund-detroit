@@ -969,3 +969,13 @@ section.one-three {
     }
   }
 }
+//FORM STYLING
+/* Put the form inside a group with a class of limit-900 */
+.gform_body {
+  h2 {
+    color: $color__teen-board-teal;
+  }
+  label {
+    color: $color__dark-blue;
+  }
+}

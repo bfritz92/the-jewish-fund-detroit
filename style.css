@@ -7262,6 +7262,15 @@ section.one-three {
   color: #52C2B6;
 }
 
+/* Put the form inside a group with a class of limit-900 */
+.gform_body h2 {
+  color: #00586A;
+}
+
+.gform_body label {
+  color: #264160;
+}
+
 /* Media */
 .page-content .wp-smiley,
 .entry-content .wp-smiley,
