@@ -6568,6 +6568,12 @@ body.error404 div#page {
 @media only screen and (min-width: 700px) {
   .annual-report--splash--img {
     z-index: -1;
+    width: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: center;
+       object-position: center;
+    height: clamp(300px, 600px, 60vh);
   }
 }
 
