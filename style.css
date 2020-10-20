@@ -3986,7 +3986,7 @@ a[href$=".ppt"]:after {
   display: inline-block;
   font-weight: bold;
   line-height: 1;
-  padding: .25rem;
+  padding: 0.25rem;
   position: absolute;
   text-transform: uppercase;
   top: -1rem;
@@ -4034,40 +4034,7 @@ a[href$=".ppt"]:after {
 
 .entry .entry-meta,
 .entry .entry-footer {
-  color: #767676;
-  font-weight: 500;
-}
-
-.entry .entry-meta > span,
-.entry .entry-footer > span {
-  margin-right: 1rem;
-  display: inline-block;
-}
-
-.entry .entry-meta > span:last-child,
-.entry .entry-footer > span:last-child {
-  margin-right: 0;
-}
-
-.entry .entry-meta a,
-.entry .entry-footer a {
-  -webkit-transition: color 110ms ease-in-out;
-  transition: color 110ms ease-in-out;
-  color: currentColor;
-}
-
-.entry .entry-meta a:hover,
-.entry .entry-footer a:hover {
-  text-decoration: none;
-  color: #0056b8;
-}
-
-.entry .entry-meta .svg-icon,
-.entry .entry-footer .svg-icon {
-  position: relative;
-  display: inline-block;
-  vertical-align: middle;
-  margin-right: 0.5em;
+  display: none;
 }
 
 .entry .entry-meta {
@@ -4333,7 +4300,7 @@ a[href$=".ppt"]:after {
   padding-left: 10px;
 }
 
-.striped-list li:nth-child(2n+1) {
+.striped-list li:nth-child(2n + 1) {
   background-color: #f4f4f4;
 }
 
