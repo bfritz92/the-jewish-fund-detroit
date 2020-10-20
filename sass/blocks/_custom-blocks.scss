@@ -932,6 +932,12 @@ section.one-three {
       &.active {
         background-color: $color__main-blue;
       }
+      &.active ~ li.active {
+        background-color: #fff;
+        a {
+          color: $color__main-blue;
+        }
+      }
       &:hover a,
       &:focus a,
       &:active a,

@@ -7194,6 +7194,14 @@ section.one-three {
   background-color: #0056b8;
 }
 
+.sticky-nav--nav li.active ~ li.active {
+  background-color: #fff;
+}
+
+.sticky-nav--nav li.active ~ li.active a {
+  color: #0056b8;
+}
+
 .sticky-nav--nav li:hover a,
 .sticky-nav--nav li:focus a,
 .sticky-nav--nav li:active a,
