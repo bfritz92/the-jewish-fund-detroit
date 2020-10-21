@@ -7233,11 +7233,17 @@ section.one-three {
 
 .teen-board .sticky-nav .sticky-nav--nav li:hover, .teen-board .sticky-nav .sticky-nav--nav li:focus, .teen-board .sticky-nav .sticky-nav--nav li:active {
   background-color: #00586A;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li:hover a, .teen-board .sticky-nav .sticky-nav--nav li:focus a, .teen-board .sticky-nav .sticky-nav--nav li:active a {
   color: #fff;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active {
   background-color: #52C2B6;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li.active a {
   color: #fff;
 }
 
