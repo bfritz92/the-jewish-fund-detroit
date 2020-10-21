@@ -7232,11 +7232,12 @@ section.one-three {
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li:hover, .teen-board .sticky-nav .sticky-nav--nav li:focus, .teen-board .sticky-nav .sticky-nav--nav li:active {
-  background-color: #52C2B6;
+  background-color: #00586A;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active {
   background-color: #52C2B6;
+  color: #fff;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active ~ li.active {

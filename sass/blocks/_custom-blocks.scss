@@ -972,10 +972,11 @@ section.one-three {
   &:hover,
   &:focus,
   &:active {
-    background-color: $color__teen-board-green;
+    background-color: $color__teen-board-teal;
   }
   &.active {
     background-color: $color__teen-board-green;
+    color: #fff;
   }
   &.active ~ li.active {
     background-color: #fff;
