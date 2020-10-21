@@ -949,20 +949,6 @@ section.one-three {
         color: $color__main-blue;
       }
     }
-    &.teen-board {
-      .sticky-nav--nav li {
-        color: $color__teen-board-green;
-        &:active {
-          background-color: $color__teen-board-teal;
-        }
-        &.active {
-          background-color: $color__teen-board-green;
-        }
-        a {
-          color: $color__teen-board-green;
-        }
-      }
-    }
   }
 
   &--item {
@@ -976,6 +962,25 @@ section.one-three {
     }
     a:hover {
       color: $color__teen-board-green;
+    }
+  }
+}
+.teen-board .sticky-nav {
+  .sticky-nav--nav li {
+    color: $color__teen-board-teal;
+    &:hover,
+    &:focus,
+    &:active {
+      background-color: $color__teen-board-green;
+    }
+    &.active {
+      background-color: $color__teen-board-green;
+    }
+    &.active ~ li.active {
+      background-color: #fff;
+      a {
+        color: $color__teen-board-teal;
+      }
     }
   }
 }

@@ -7214,22 +7214,6 @@ section.one-three {
   color: #0056b8;
 }
 
-.sticky-nav--nav.teen-board .sticky-nav--nav li {
-  color: #52C2B6;
-}
-
-.sticky-nav--nav.teen-board .sticky-nav--nav li:active {
-  background-color: #00586A;
-}
-
-.sticky-nav--nav.teen-board .sticky-nav--nav li.active {
-  background-color: #52C2B6;
-}
-
-.sticky-nav--nav.teen-board .sticky-nav--nav li a {
-  color: #52C2B6;
-}
-
 .sticky-nav--item h2,
 .sticky-nav--item h3,
 .sticky-nav--item h4,
@@ -7241,6 +7225,26 @@ section.one-three {
 
 .sticky-nav--item a:hover {
   color: #52C2B6;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li {
+  color: #00586A;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li:hover, .teen-board .sticky-nav .sticky-nav--nav li:focus, .teen-board .sticky-nav .sticky-nav--nav li:active {
+  background-color: #52C2B6;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li.active {
+  background-color: #52C2B6;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li.active ~ li.active {
+  background-color: #fff;
+}
+
+.teen-board .sticky-nav .sticky-nav--nav li.active ~ li.active a {
+  color: #00586A;
 }
 
 /* Put the form inside a group with a class of limit-900 */
