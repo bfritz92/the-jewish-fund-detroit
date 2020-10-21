@@ -965,25 +965,24 @@ section.one-three {
     }
   }
 }
-.teen-board .sticky-nav {
-  .sticky-nav--nav li {
-    color: $color__teen-board-teal;
-    &:hover,
-    &:focus,
-    &:active {
-      background-color: $color__teen-board-green;
-    }
-    &.active {
-      background-color: $color__teen-board-green;
-    }
-    &.active ~ li.active {
-      background-color: #fff;
-      a {
-        color: $color__teen-board-teal;
-      }
+.teen-board .sticky-nav .sticky-nav--nav li {
+  color: $color__teen-board-teal;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: $color__teen-board-green;
+  }
+  &.active {
+    background-color: $color__teen-board-green;
+  }
+  &.active ~ li.active {
+    background-color: #fff;
+    a {
+      color: $color__teen-board-teal;
     }
   }
 }
+
 //FORM STYLING
 /* Put the form inside a group with a class of limit-900 */
 .gform_body {
