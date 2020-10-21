@@ -973,6 +973,7 @@ section.one-three {
   &:focus,
   &:active {
     background-color: $color__teen-board-teal;
+    color: #fff;
   }
   &.active {
     background-color: $color__teen-board-green;
