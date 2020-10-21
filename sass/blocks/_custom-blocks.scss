@@ -966,7 +966,9 @@ section.one-three {
   }
 }
 .teen-board .sticky-nav .sticky-nav--nav li {
-  color: $color__teen-board-teal;
+  a {
+    color: $color__teen-board-teal;
+  }
   &:hover,
   &:focus,
   &:active {
