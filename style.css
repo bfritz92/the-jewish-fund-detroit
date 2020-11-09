@@ -6505,13 +6505,12 @@ body.error404 div#page {
   background-color: #264160;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 920px) {
   .annual-report--splash {
     display: -ms-grid;
     display: grid;
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
-    background-color: transparent;
   }
 }
 
@@ -6527,12 +6526,11 @@ body.error404 div#page {
 }
 
 .annual-report--splash--img {
-  grid-column: 1/-1;
   grid-row: 1/-1;
   z-index: 1;
 }
 
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 920px) {
   .annual-report--splash--img {
     z-index: -1;
     width: 100%;
@@ -6540,7 +6538,7 @@ body.error404 div#page {
        object-fit: cover;
     -o-object-position: center;
        object-position: center;
-    height: clamp(300px, 600px, 60vh);
+    height: auto;
   }
 }
 
@@ -6565,6 +6563,7 @@ body.error404 div#page {
     max-width: 420px;
     margin: 10px;
     padding-bottom: 0;
+    padding-left: 1.5rem;
   }
 }
 

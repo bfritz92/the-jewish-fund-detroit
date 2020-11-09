@@ -457,10 +457,9 @@
 .annual-report {
   &--splash {
     background-color: $color__dark-blue;
-    @media only screen and (min-width: $tablet) {
+    @media only screen and (min-width: $large-tablet) {
       display: grid;
       grid-template-columns: 1fr 1fr;
-      background-color: transparent;
     }
     &.secondary {
       .annual-report--splash--panel {
@@ -476,15 +475,14 @@
       }
     }
     &--img {
-      grid-column: 1/-1;
       grid-row: 1/-1;
       z-index: 1;
-      @media only screen and (min-width: $tablet) {
+      @media only screen and (min-width: $large-tablet) {
         z-index: -1;
         width: 100%;
         object-fit: cover;
         object-position: center;
-        height: clamp(300px, 600px, 60vh);
+        height: auto;
       }
     }
     &--panel {
@@ -495,12 +493,14 @@
       max-width: 80%;
       margin: auto;
       padding-bottom: 1rem;
+
       @media only screen and (min-width: $tablet) {
         background-color: transparent;
         color: $color__dark-blue;
         max-width: 420px;
         margin: 10px;
         padding-bottom: 0;
+        padding-left: 1.5rem;
       }
     }
     &--heading {
