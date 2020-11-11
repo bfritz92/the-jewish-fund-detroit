@@ -768,9 +768,11 @@
   .sosnick--left-panel {
     grid-column: 1;
     grid-row: 1;
-    display: grid;
     grid-template-columns: 1fr;
+    display: grid;
+
     //grid-template-rows: auto 1fr 1fr 1fr;
+    //forcing a change
     height: 100%;
     .sosnick--past-recipients {
       padding: 2rem 0;

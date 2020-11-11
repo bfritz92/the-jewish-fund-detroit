@@ -6949,10 +6949,10 @@ body.error404 div#page {
   grid-column: 1;
   -ms-grid-row: 1;
   grid-row: 1;
-  display: -ms-grid;
-  display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
+  display: -ms-grid;
+  display: grid;
   height: 100%;
 }
 
