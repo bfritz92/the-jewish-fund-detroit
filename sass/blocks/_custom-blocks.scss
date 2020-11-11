@@ -770,7 +770,7 @@
     grid-row: 1;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: auto 1fr 1fr 1fr;
+    //grid-template-rows: auto 1fr 1fr 1fr;
     height: 100%;
     .sosnick--past-recipients {
       padding: 2rem 0;
@@ -804,6 +804,7 @@
         justify-content: center;
         align-items: center;
         height: 100%;
+        padding: 1rem 2rem;
       }
     }
   }

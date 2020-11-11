@@ -6953,8 +6953,6 @@ body.error404 div#page {
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  -ms-grid-rows: auto 1fr 1fr 1fr;
-      grid-template-rows: auto 1fr 1fr 1fr;
   height: 100%;
 }
 
@@ -7008,6 +7006,7 @@ body.error404 div#page {
       -ms-flex-align: center;
           align-items: center;
   height: 100%;
+  padding: 1rem 2rem;
 }
 
 #teenboard.annual-report--content {
