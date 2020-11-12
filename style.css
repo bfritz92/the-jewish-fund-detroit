@@ -6559,7 +6559,6 @@ body.error404 div#page {
 @media only screen and (min-width: 700px) {
   .annual-report--splash--panel {
     background-color: transparent;
-    color: #264160;
     max-width: 420px;
     margin: 10px;
     padding-bottom: 0;
