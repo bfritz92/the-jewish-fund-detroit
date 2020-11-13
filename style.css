@@ -1944,6 +1944,14 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding-bottom: 1rem;
 }
 
+.pl1 {
+  padding-left: 1rem;
+}
+
+.pr1 {
+  padding-right: 1rem;
+}
+
 .mt2 {
   margin-top: 2rem;
 }
@@ -1960,6 +1968,14 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
   padding-bottom: 2rem;
 }
 
+.pl2 {
+  padding-left: 2rem;
+}
+
+.pr2 {
+  padding-right: 2rem;
+}
+
 .mt3 {
   margin-top: 3rem;
 }
@@ -1974,6 +1990,14 @@ input:lang(vi)[type="submit"], .comment-navigation .nav-previous:lang(vi),
 
 .pb3 {
   padding-bottom: 3rem;
+}
+
+.pl3 {
+  padding-left: 3rem;
+}
+
+.pr3 {
+  padding-right: 3rem;
 }
 
 .mt10 {
