@@ -826,8 +826,8 @@
   .teenboard--left-panel {
     grid-column: 1;
     grid-row: 1;
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 
     height: 100%;
     .wp-block-image img {
