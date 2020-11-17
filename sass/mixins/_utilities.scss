@@ -583,4 +583,26 @@ ul.nobullets {
   padding-left: 0;
 }
 
+.fifty-fifty {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  .full-width {
+    grid-column: 1/-1;
+  }
+  .left-side {
+    grid-column: 1/-1;
+    @media only screen and (min-width:$tablet){
+      grid-column: 1;
+    }
+  }
+  .right-side {
+    grid-column: 1/-1;
+    @media only screen and (min-width:$tablet){
+      grid-column: 2;
+    }
+}
+.big-number {
+  font-size: 2rem;
+}
 //END UTILITY CLASSES //

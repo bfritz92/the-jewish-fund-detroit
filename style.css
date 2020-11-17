@@ -2156,6 +2156,32 @@ ul.nobullets {
   padding-left: 0;
 }
 
+.fifty-fifty {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.fifty-fifty .full-width {
+  grid-column: 1/-1;
+}
+
+.fifty-fifty .left-side {
+  -ms-grid-column: 1;
+  grid-column: 1;
+}
+
+.fifty-fifty .right-side {
+  -ms-grid-column: 2;
+  grid-column: 2;
+}
+
+.big-number {
+  font-size: 2rem;
+}
+
 /* Normalize */
 /*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
 /* Document
