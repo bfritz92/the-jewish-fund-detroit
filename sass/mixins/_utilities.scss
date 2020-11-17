@@ -590,17 +590,18 @@ ul.nobullets {
   .full-width {
     grid-column: 1/-1;
   }
-  .left-side {
+  .left-half {
     grid-column: 1/-1;
-    @media only screen and (min-width:$tablet){
+    @media only screen and (min-width: $tablet) {
       grid-column: 1;
     }
   }
-  .right-side {
+  .right-half {
     grid-column: 1/-1;
-    @media only screen and (min-width:$tablet){
+    @media only screen and (min-width: $tablet) {
       grid-column: 2;
     }
+  }
 }
 .big-number {
   font-size: 2rem;

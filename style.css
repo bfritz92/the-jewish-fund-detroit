@@ -2168,14 +2168,26 @@ ul.nobullets {
   grid-column: 1/-1;
 }
 
-.fifty-fifty .left-side {
-  -ms-grid-column: 1;
-  grid-column: 1;
+.fifty-fifty .left-half {
+  grid-column: 1/-1;
 }
 
-.fifty-fifty .right-side {
-  -ms-grid-column: 2;
-  grid-column: 2;
+@media only screen and (min-width: 700px) {
+  .fifty-fifty .left-half {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+}
+
+.fifty-fifty .right-half {
+  grid-column: 1/-1;
+}
+
+@media only screen and (min-width: 700px) {
+  .fifty-fifty .right-half {
+    -ms-grid-column: 2;
+    grid-column: 2;
+  }
 }
 
 .big-number {
