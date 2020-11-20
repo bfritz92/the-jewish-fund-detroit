@@ -7035,6 +7035,10 @@ body.error404 div#page {
 
 #sosnick.annual-report--content .sosnick--left-panel .sosnick--past-recipients .wp-block-group__inner-container ul li {
   line-height: 1.5;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 10px;
 }
 
 #sosnick.annual-report--content .sosnick--left-panel .wp-block-image img {
