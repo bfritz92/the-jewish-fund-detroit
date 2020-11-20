@@ -6449,6 +6449,11 @@ body.error404 div#page {
   }
 }
 
+.arrow-focus.title-only .arrow-focus--panel h3,
+.arrow-focus.title-only .arrow-focus--panel p {
+  display: none;
+}
+
 .arrow-focus.dark-blue {
   color: #fff;
   background-color: #264160;

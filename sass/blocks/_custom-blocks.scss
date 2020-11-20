@@ -356,6 +356,14 @@
       }
     }
   }
+  &.title-only {
+    .arrow-focus--panel {
+      h3,
+      p {
+        display: none;
+      }
+    }
+  }
   &.dark-blue {
     color: #fff;
     background-color: $color__dark-blue;
