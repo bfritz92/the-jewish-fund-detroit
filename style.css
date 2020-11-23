@@ -2191,7 +2191,7 @@ ul.nobullets {
 }
 
 .big-number {
-  font-size: 2rem;
+  font-size: clamp(2rem, 10rem, 13vw);
 }
 
 /* Normalize */
