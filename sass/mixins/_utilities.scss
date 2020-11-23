@@ -606,4 +606,13 @@ ul.nobullets {
 .big-number {
   font-size: clamp(4rem, 10rem, 13vw);
 }
+.center-vertical {
+  height: 100%;
+  .wp-block-group__inner-container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+  }
+}
 //END UTILITY CLASSES //
