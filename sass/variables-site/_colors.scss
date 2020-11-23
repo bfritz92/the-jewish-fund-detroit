@@ -1,29 +1,63 @@
 $color__dark-blue: #264160;
 $color__main-blue: #0056b8;
-$color__teal: #3A74A6;
+$color__teal: #3a74a6;
 $color__light-blue: #81a4cd;
 $color__cloud-blue: #dbe4ee;
-$color__teen-board-green: #52C2B6;
-$color__teen-board-teal: #00586A;
+$color__teen-board-green: #52c2b6;
+$color__teen-board-teal: #00586a;
 $color__orange: #f17300;
 $color__charcoal: #2d2d2d;
-.dark-blue{color:$color__dark-blue;}
-.blue{color:$color__main-blue;}
-.teal{color:$color__teal;}
-.light-blue{color:$color__light-blue;}
-.cloud-blue{color:$color__cloud-blue;}
-.teen-board-green{color:$color__teen-board-green;}
-.teen-board-teal{color:$color__teen-board-teal;}
-.orange{color:$color__orange;}
-.white{color:#fff;}
-.charcoal{color:$color__charcoal;}
-.dark-blue-bg{background-color:$color__dark-blue;}
-.blue-bg{background-color:$color__main-blue;}
-.teal-bg{background-color:$color__teal;}
-.light-blue-bg{background-color:$color__light-blue;}
-.cloud-blue-bg{background-color:$color__cloud-blue;}
-.teen-board-green-bg{background-color:$color__teen-board-green}
-.teen-board-green-teal-bg{background-color:$color__teen-board-green}
+.dark-blue {
+  color: $color__dark-blue;
+}
+.blue {
+  color: $color__main-blue;
+}
+.teal {
+  color: $color__teal;
+}
+.light-blue {
+  color: $color__light-blue;
+}
+.cloud-blue {
+  color: $color__cloud-blue;
+}
+.teen-board-green {
+  color: $color__teen-board-green;
+}
+.teen-board-teal {
+  color: $color__teen-board-teal;
+}
+.orange {
+  color: $color__orange;
+}
+.white {
+  color: #fff;
+}
+.charcoal {
+  color: $color__charcoal;
+}
+.dark-blue-bg {
+  background-color: $color__dark-blue;
+}
+.blue-bg {
+  background-color: $color__main-blue;
+}
+.teal-bg {
+  background-color: $color__teal;
+}
+.light-blue-bg {
+  background-color: $color__light-blue;
+}
+.cloud-blue-bg {
+  background-color: $color__cloud-blue;
+}
+.teen-board-green-bg {
+  background-color: $color__teen-board-green;
+}
+.teen-board-green-teal-bg {
+  background-color: $color__teen-board-teal;
+}
 
 // Backgrounds
 $color__background-body: #fff;
@@ -34,12 +68,16 @@ $color__background-button: $color__main-blue;
 $color__background-button-hover: #111;
 $color__background-pre: #eee;
 $color__background-ins: #fff9c0;
-$color__background_selection: mix( $color__background-body, $color__background-button, 75% ); // lighten( salmon, 22.5% ); // lighten( #0999d4, 48% );
+$color__background_selection: mix(
+  $color__background-body,
+  $color__background-button,
+  75%
+); // lighten( salmon, 22.5% ); // lighten( #0999d4, 48% );
 
 // Text
 $color__text-main: #111;
 $color__text-light: #767676;
-$color__text-hover: lighten( #111, 22.5% );
+$color__text-hover: lighten(#111, 22.5%);
 $color__text-screen: #21759b;
 $color__text-input: #666;
 $color__text-input-focus: #111;
@@ -47,12 +85,12 @@ $color__text-input-focus: #111;
 // Links
 $color__link: $color__main-blue;
 $color__link-visited: $color__main-blue;
-$color__link-hover: darken( $color__link, 10% );
+$color__link-hover: darken($color__link, 10%);
 
 // Borders
 $color__border: #ccc;
 $color__border-link: $color__main-blue;
-$color__border-link-hover: darken( $color__link, 10% );
+$color__border-link-hover: darken($color__link, 10%);
 $color__border-button: #ccc #ccc #bbb;
 $color__border-button-hover: #ccc #bbb #aaa;
 $color__border-button-focus: #aaa #bbb #bbb;

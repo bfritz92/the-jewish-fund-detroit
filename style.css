@@ -63,7 +63,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .teal {
-  color: #3A74A6;
+  color: #3a74a6;
 }
 
 .light-blue {
@@ -75,11 +75,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .teen-board-green {
-  color: #52C2B6;
+  color: #52c2b6;
 }
 
 .teen-board-teal {
-  color: #00586A;
+  color: #00586a;
 }
 
 .orange {
@@ -103,7 +103,7 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .teal-bg {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
 }
 
 .light-blue-bg {
@@ -115,11 +115,11 @@ Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
 }
 
 .teen-board-green-bg {
-  background-color: #52C2B6;
+  background-color: #52c2b6;
 }
 
 .teen-board-green-teal-bg {
-  background-color: #52C2B6;
+  background-color: #00586a;
 }
 
 /*
@@ -2191,7 +2191,7 @@ ul.nobullets {
 }
 
 .big-number {
-  font-size: clamp(2rem, 10rem, 13vw);
+  font-size: clamp(4rem, 10rem, 13vw);
 }
 
 /* Normalize */
@@ -4484,7 +4484,7 @@ body.error404 div#page {
 --------------------------------------------------------------*/
 /* Site footer */
 #colophon {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   width: 100%;
 }
 
@@ -6259,7 +6259,7 @@ body.error404 div#page {
 }
 
 .focus-area.cloud .focus-area--panel .link:hover {
-  color: #3A74A6;
+  color: #3a74a6;
 }
 
 .focus-area.teal, .focus-area.blue, .focus-area.dark-blue, .focus-area.teen-board-teal, .focus-area.teen-board-green {
@@ -6279,7 +6279,7 @@ body.error404 div#page {
 }
 
 .focus-area.teal {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
 }
 
 .focus-area.blue {
@@ -6291,11 +6291,11 @@ body.error404 div#page {
 }
 
 .focus-area.teen-board-teal {
-  background-color: #00586A;
+  background-color: #00586a;
 }
 
 .focus-area.teen-board-green {
-  background-color: #52C2B6;
+  background-color: #52c2b6;
 }
 
 .focus-area.full-page {
@@ -6482,7 +6482,7 @@ body.error404 div#page {
 
 .arrow-focus.teal {
   color: #fff;
-  background-color: #3A74A6;
+  background-color: #3a74a6;
 }
 
 .arrow-focus.teal .arrow-focus--panel .link {
@@ -6499,7 +6499,7 @@ body.error404 div#page {
 }
 
 .arrow-focus.cloud .arrow-focus--panel .link {
-  color: #3A74A6;
+  color: #3a74a6;
 }
 
 .arrow-focus.cloud .arrow-focus--panel .link:hover, .arrow-focus.cloud .arrow-focus--panel .link:focus {
@@ -6508,7 +6508,7 @@ body.error404 div#page {
 
 .arrow-focus.teen-board-green {
   color: #fff;
-  background-color: #52C2B6;
+  background-color: #52c2b6;
 }
 
 .arrow-focus.teen-board-green .arrow-focus--panel .link {
@@ -6521,7 +6521,7 @@ body.error404 div#page {
 
 .arrow-focus.teen-board-teal {
   color: #fff;
-  background-color: #00586A;
+  background-color: #00586a;
 }
 
 .arrow-focus.teen-board-teal .arrow-focus--panel .link {
@@ -6781,7 +6781,7 @@ body.error404 div#page {
 }
 
 .grant-container .discretionary-item.teal {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   color: #fff;
 }
 
@@ -6936,7 +6936,7 @@ body.error404 div#page {
 }
 
 .container.teal {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   color: #fff;
 }
 
@@ -7024,7 +7024,7 @@ body.error404 div#page {
 
 #sosnick.annual-report--content .sosnick--left-panel .sosnick--past-recipients {
   padding: 2rem 0;
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   color: #fff;
 }
 
@@ -7057,7 +7057,7 @@ body.error404 div#page {
 }
 
 #sosnick.annual-report--content .sosnick--left-panel .pullquote.teal {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   color: #fff;
 }
 
@@ -7127,7 +7127,7 @@ body.error404 div#page {
 }
 
 #teenboard.annual-report--content .teenboard--left-panel .pullquote.teal {
-  background-color: #3A74A6;
+  background-color: #3a74a6;
   color: #fff;
 }
 
@@ -7300,7 +7300,7 @@ section.one-three {
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li a {
-  color: #00586A;
+  color: #00586a;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li a:hover {
@@ -7308,7 +7308,7 @@ section.one-three {
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li:hover, .teen-board .sticky-nav .sticky-nav--nav li:focus, .teen-board .sticky-nav .sticky-nav--nav li:active {
-  background-color: #00586A;
+  background-color: #00586a;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li:hover a, .teen-board .sticky-nav .sticky-nav--nav li:focus a, .teen-board .sticky-nav .sticky-nav--nav li:active a {
@@ -7316,7 +7316,7 @@ section.one-three {
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active {
-  background-color: #52C2B6;
+  background-color: #52c2b6;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active a {
@@ -7328,7 +7328,7 @@ section.one-three {
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li.active ~ li.active a {
-  color: #00586A;
+  color: #00586a;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li--item h2,
@@ -7337,16 +7337,16 @@ section.one-three {
 .teen-board .sticky-nav .sticky-nav--nav li--item h5,
 .teen-board .sticky-nav .sticky-nav--nav li--item h6,
 .teen-board .sticky-nav .sticky-nav--nav li--item a {
-  color: #00586A;
+  color: #00586a;
 }
 
 .teen-board .sticky-nav .sticky-nav--nav li--item a:hover {
-  color: #52C2B6;
+  color: #52c2b6;
 }
 
 /* Put the form inside a group with a class of limit-900 */
 .gform_body h2 {
-  color: #00586A;
+  color: #00586a;
 }
 
 .gform_body label {
