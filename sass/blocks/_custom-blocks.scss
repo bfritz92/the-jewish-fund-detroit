@@ -559,7 +559,6 @@
   }
 }
 .signature {
-  margin-left: 5vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
   .wp-block-group__inner-container {
@@ -567,6 +566,7 @@
     align-items: center;
     .wp-block-image img {
       height: 150px;
+      width: auto;
     }
     ul {
       list-style: none;

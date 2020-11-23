@@ -6698,7 +6698,6 @@ body.error404 div#page {
 }
 
 .signature {
-  margin-left: 5vw;
   padding-top: 2rem;
   padding-bottom: 2rem;
 }
@@ -6714,6 +6713,7 @@ body.error404 div#page {
 
 .signature .wp-block-group__inner-container .wp-block-image img {
   height: 150px;
+  width: auto;
 }
 
 .signature .wp-block-group__inner-container ul {
