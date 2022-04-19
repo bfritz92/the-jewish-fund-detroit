@@ -18,6 +18,16 @@
 	<link rel="profile" href="https://gmpg.org/xfn/11" />
 	<script data-search-pseudo-elements src="https://kit.fontawesome.com/79a22ac9a8.js"></script>
 	<?php wp_head(); ?>
+
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-MGSRB5K6Z1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-MGSRB5K6Z1');
+</script>
 </head>
 
 <body <?php body_class(); ?>>
